@@ -1,0 +1,99 @@
+#blogPage .body{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+  line-height: 1.6em;
+}
+
+#more {display: none;}
+
+
+#blogPage .content h2 {
+  color: #333;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: left;
+}
+
+#blogPage .content h3 {
+  color: #777;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: italic;
+  text-align: left;
+}
+
+#blogPage .content p {
+  line-height: 26px;
+  text-align: left;
+}
+
+#blogPage .content p:last-child {
+  margin-bottom: 0;
+}
+.portfolio-hero {
+    background: rgb(10,10,10);
+    background: linear-gradient(rgba(10,10,10,.6),rgba(0,0,0,.9)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px),
+		url(img/bgbg.jpg) no-repeat center center fixed;
+    height: 100vh;
+	  width: 100%;
+    margin: -8px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.portfolio-menu ul {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 1.34rem;
+}
+.portfolio-menu ul li {
+    margin: 0px 10px;
+    list-style: none;
+}
+.portfolio-menu .menu-item a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity:0.5;
+}
+
+.portfolio-menu .menu-item a:hover{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    opacity:1;
+}
+
+.portfolio-profile {
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+.portfolio-profile img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.portfolio-profile h1 {
+    font-weight: 300;
+    margin: 15px;
+    font-size: 6.2rem;
+    -webkit-text-stroke: 1px black;
+    color: white;
+}
+
+.portfolio-profile h2 {
+    font-weight: 300;
+    margin: 15px;
+    font-size: 1.9rem;
+    -webkit-text-stroke: 1px black;
+    color: rgb(165, 211, 241);
+    
+}
