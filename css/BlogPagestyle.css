@@ -1,0 +1,115 @@
+body{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+  line-height: 1.6em;
+}
+
+#more {display: none;}
+
+#blogPage .content h2 {
+  color: #333;
+  font-weight: 300;
+  font-size: 24px;
+  text-align: left;
+}
+
+#blogPage .content h3 {
+  color: #777;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: italic;
+  text-align: left;
+}
+
+#blogPage .content p {
+  line-height: 26px;
+  text-align: left;
+}
+
+#blogPage .content p:last-child {
+  margin-bottom: 0;
+}
+
+.portfolio-hero {
+ background: url(../img/background3.jpg) no-repeat center center fixed;
+ height: 100vh;
+ padding: 10px;
+ background-size: 100%;
+ text-align: center;
+ color: white;
+ margin: -8px;
+}
+
+.portfolio-profile {
+    width: 650px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+.portfolio-profile img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+.portfolio-profile h1 {
+    font-weight: 300;
+    margin: 15px;
+    font-size: 6.2rem;
+    -webkit-text-stroke: 1px black;
+    color: white;
+}
+
+.portfolio-profile h2 {
+    font-weight: 300;
+    margin: 15px;
+    font-size: 1.9rem;
+    -webkit-text-stroke: 1px black;
+    color: rgb(165, 211, 241);
+    
+}
+
+
+.button {
+  border-radius: 4px;
+  background-color: #181818;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 12px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  float: left;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
