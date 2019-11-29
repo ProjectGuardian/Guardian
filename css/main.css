@@ -1,0 +1,55 @@
+body{
+    overflow: hidden;
+    background-color: rgba(189, 189, 189, 0.651);
+}
+iframe{
+    margin: -8px;
+    width: 102%;
+    height: 755px;
+}
+.navbar{
+    width: 102%;
+    height: 80px;
+    position: absolute;
+    margin: -8px;
+}
+.header{
+    width: 102%;
+    margin: -8px;
+    display: none;
+    height: 80px;
+    z-index: -1;
+}
+.icon{
+    height: 35px;
+    width: 35px;
+}
+.header table{
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 40px;
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+
+}
+#logo{
+    height: 80px;
+    position: absolute;
+    margin-left: 20px;
+}
+.header:hover{
+    background-color:rgba(255, 255, 255, 0.637);
+}
+.navbar:hover .header{
+    display: block;
+    transition-duration: .5s;
+}
+button{
+    height: 30px;
+    width: 120px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+
