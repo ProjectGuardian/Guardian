@@ -1,0 +1,53 @@
+html {
+    margin: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+    margin: 0;
+    top: 0;
+    right: 0;
+}
+.aboutPage {
+    background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
+    height: 650px;
+    padding: 1px;
+    background-size: 100%;
+    text-align: center;
+    color:white;
+}
+.about-profile h1 {
+    font-weight: 300;
+    padding: 0.1px;
+    margin: 150px;
+    font-size: 8rem;
+    color: white;
+}
+.about-profile h2 {
+    font-weight: 300;
+    padding: 0.1px;
+    margin: -100px;
+    font-size: 4rem;
+    color: white;
+}
+.footer{
+    color:black;
+    text-align: center;
+    background-color: white;
+    margin: 0px;
+    padding: 18px;
+    width: 100%;
+    }
+    footer h3 {
+      text-align: center;
+    }
+    .logoFooter {
+      float: center; 
+      padding: 0px;
+      height: 200%;
+      width: 300px; 
+      text-decoration: none;
+      border-radius: 30%;
+  }
