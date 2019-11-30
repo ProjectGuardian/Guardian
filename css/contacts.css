@@ -1,10 +1,10 @@
-html{
+html, body{
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
-}
-body{
-    width: 100%;
+    background-color: white;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 .navbar{
     width: 102%;
@@ -25,20 +25,21 @@ body{
 }
 .header table{
     position: absolute;
-    margin-left: 1000px;
-    margin-top: 40px;
+    margin-left: 800px;
+    margin-top: 30px;
     color: black;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
 
 }
 #logo{
-    height: 80px;
+    height: 75px;
     position: absolute;
+    top: 0px;
     margin-left: 20px;
 }
 #logo:hover{
-    height: 100px;
+    height: 90px;
     transition-duration: .3s;
 }
 .header:hover{
@@ -72,11 +73,10 @@ button:hover{
     text-align: center;
     height: 52rem;
     width: 100%;
-    margin-left: -0.5rem;
-    margin-top: -4.1rem;
 }
 .contacts-content-header h1{
-    padding-top: 18rem;
+    margin: 0 0 0 0;
+    padding-top: 14rem;
     color: white;
     font-size: 6rem;
     overflow-x: hidden;
@@ -523,7 +523,7 @@ iframe {
     }
     .contacts-content-header h1{
         font-size: 4rem;
-        padding-top: 19rem;
+        padding-top: 14rem;
     }
     #h2_contact{
         margin-bottom: 40px;
