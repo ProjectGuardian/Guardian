@@ -127,6 +127,7 @@ margin-left: 35%;
   height: 70%;
   width: 70%;
   margin-left: 35%;
+  margin-right: 35%;
   opacity: 0;
   transition: .5s ease;
   background-color: whitesmoke;
@@ -199,6 +200,22 @@ footer h3 {
   text-decoration: none;
   border-radius: 30%;
 }
+
+.team-grid2 .adjustSpace{
+  font-size:20px;
+}
+
+.team-grid3 .adjustSpace{
+  font-size:20px;
+}
+
+.team-grid4 .adjustSpace{
+  font-size:20px;
+}
+
+
+
+
 
 
 @media screen and (max-width: 1440px){
@@ -282,7 +299,6 @@ footer h3 {
   display: block;
   margin-left: 35%;
   margin-right: 35%;
-  width: 50%;
   position: center;
   display: block;
   width: 70%;
