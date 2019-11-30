@@ -366,6 +366,9 @@ footer h3 {
     .team-main-grid h1{
     font-size: 1.2rem;
     }
+    h2 {
+      font-size: 2.5rem;
+      }
     .team-grid1 img, .team-grid2 img, .team-grid3 img, .team-grid4 img, .team-grid5 img, .team-grid6 img{
       height: 55%;
       position: sticky;
@@ -378,7 +381,7 @@ footer h3 {
   @media screen and (max-width: 375px){
     .aboutPage {
       background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
-      height: 65vh;
+      height: 100vh;
       padding: 0px;
       background-size: cover;
       text-align: justify;
@@ -402,10 +405,42 @@ footer h3 {
   .overlay {
     height: 60%;
   }
-  }
+}
   
   @media screen and (max-width: 320px){
-  
+    .aboutPage {
+      background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
+      height: 100vh;
+      padding: 0px;
+      background-size: cover;
+      text-align: justify;
+     }
+     .about-profile h1 {
+      font-size: 3rem;
+      text-align: center;
+      margin: 20px;
+    }
+    .about-profile h2 {
+      font-size: 1.5rem;
+      margin: 0px;
+    }
+    h2 {
+      font-size: 2rem;
+      }
+    .who h1 {
+      margin-top: 2.5px;
+      font-size: 2.5rem;
+    }
+    .who p {
+      font-size: 1rem;
+      text-align: justify;
+    }
+    .team-grid1 img, .team-grid2 img, .team-grid3 img, .team-grid4 img, .team-grid5 img, .team-grid6 img{
+      height: 65%;
+    }
+    .overlay {
+      height: 65%;
+    }
   }
 
   
