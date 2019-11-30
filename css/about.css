@@ -52,7 +52,7 @@ body {
 h2 {
   padding: 20px;
   margin: 0px;
-  font-size: 4rem;
+  font-size: 6rem;
   text-align: center;
   font-family: sans-serif;
 }
@@ -113,7 +113,7 @@ margin-left: 35%;
   display: block;
   margin-left: 35%;
   margin-right: 35%;
-  position: center;
+  position: sticky;
   display: block;
   width: 70%;
   height: 70%;
@@ -208,7 +208,7 @@ footer h3 {
     position: absolute;
 }
   .aboutPage {
-    background: url(../img/background2.jpg) no-repeat center center fixed;
+    background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
     display: inline-block;
     height: 100;
     width: 100%;
@@ -363,3 +363,4 @@ footer h3 {
   padding-right: 25px;
 }
 }
+
