@@ -455,3 +455,78 @@ button[type=submit]:hover{
         font-weight: bold;
     }
 }
+@media screen and (max-width: 320px){
+    .contact-desc h3{
+        font-size: 0.65rem;
+    }
+    .contacts-content-header h1{
+        font-size: 4rem;
+        padding-top: 7rem;
+    }
+    #h2_contact{
+        margin-bottom: 40px;
+        padding-left: 20px;
+    }
+    .Contact{
+        position: absolute;
+        top: 400px;
+        left: 95px;
+        font-size: 1rem;
+    }
+    .form{
+        position: absolute;
+        top: 900px;
+        right: 34px;
+     }
+     .userInfo{
+         margin: 5px 8px 20px 0px;
+         width: 252px;
+         height: 30px;
+     }
+     
+     #userMessage{
+         width: 250px;
+         height: 255px;
+     }
+     .address img{
+        position: absolute;
+        top: 110px;
+        left: -70px;
+    }
+    .email img{
+        position: absolute;
+        top: 230px;
+        left: -70px;
+    }
+     #submitButton{
+        margin-left: 100px;
+        height: 20px;
+        width: 75px;
+        background-color: orange;
+        border-width: 0px;
+        margin-bottom: 10px;
+    }
+    .map-location {
+        position: absolute;
+        top: 1200px;
+        left: 35px;
+    }
+    iframe {
+        width: 250px;
+        height: 275px;
+    }
+    .footer {
+        overflow-x: hidden;
+        position: absolute;
+        top: 94rem;
+        width: 99.13%;
+        margin-left: -1rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-size: 0.4rem;
+        padding: 10px;
+        letter-spacing: 0.2rem;
+        font-weight: bold;
+    }
+}
