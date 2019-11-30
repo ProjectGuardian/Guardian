@@ -10,13 +10,13 @@ body{
     background: url(../img/imgC/contact-header.jpg) no-repeat fixed;
     background-size: cover;
     text-align: center;
-    height: 44rem;
+    height: 52rem;
     width: 100%;
     margin-left: -0.5rem;
     margin-top: -4.1rem;
 }
 .contacts-content-header h1{
-    padding-top: 16rem;
+    padding-top: 18rem;
     color: white;
     font-size: 6rem;
     overflow-x: hidden;
@@ -39,7 +39,7 @@ body{
 }
 .Contact{
     position: absolute;
-    top: 868px;
+    top: 1000px;
     left: 230px;
     font-size: 1.2rem;
 }
@@ -84,7 +84,7 @@ body{
 }
 .form{
     position: absolute;
-    top: 832px;
+    top: 975px;
     right: 110px;
  }
  
@@ -155,7 +155,7 @@ button[type=submit]:hover{
 }
 .map-location{
     position: absolute;
-    top: 1255px;
+    top: 1405px;
     left: 160px;
 }
 iframe {
@@ -165,7 +165,7 @@ iframe {
 .footer {
     overflow-x: hidden;
     position: absolute;
-    top: 107rem;
+    top: 117rem;
     width: 99.13%;
     margin-left: -1rem;
     text-align: center;
@@ -189,12 +189,12 @@ iframe {
     
     .Contact{
         position: absolute;
-        top: 125%;
+        top: 1000px;
         left: 150px;
     }
     .form{
         position: absolute;
-        top: 120%;
+        top: 985px;
         right: 75px;
      }
     .form-desc h2{
@@ -220,7 +220,7 @@ iframe {
     }
     .map-location {
         position: absolute;
-        top: 175%;
+        top: 1375px;
         left: 100px;
     }
     iframe {
@@ -229,7 +229,7 @@ iframe {
     }
     .footer{
         position: absolute;
-        top: 242%;
+        top: 1825px;
     }
 }
 @media screen and (max-width: 768px){
@@ -239,7 +239,7 @@ iframe {
     }
     .Contact{
         position: absolute;
-        top: 125%;
+        top: 1000px;
         left: 300px;
     }
     .contact-desc h2, .contact-desc h3{
@@ -257,7 +257,7 @@ iframe {
     }
     .form{
         position: absolute;
-        top: 200%;
+        top: 1475px;
         right: 145px;
      }
      .form-desc h2{
@@ -302,7 +302,7 @@ iframe {
     }
     .map-location {
         position: absolute;
-        top: 235%;
+        top: 1725px;
         left: 125px;
     }
     iframe {
@@ -311,7 +311,7 @@ iframe {
     }
     .footer{
         position: absolute;
-        top: 280%;
+        top: 2050px;
     }
     
 }
@@ -322,7 +322,7 @@ iframe {
     }
     .Contact{
         position: absolute;
-        top: 125%;
+        top: 1000px;
         left: 120px;
         font-size: 1.1rem;
     }
@@ -347,7 +347,7 @@ iframe {
     }
     .form{
         position: absolute;
-        top: 195%;
+        top: 1475px;
         right: 40px;
      }
      .form-desc h2{
@@ -375,7 +375,7 @@ iframe {
     }
     .map-location {
         position: absolute;
-        top: 245%;
+        top: 1795px;
         left: 51px;
     }
     iframe {
@@ -384,7 +384,7 @@ iframe {
     }
     .footer{
         position: absolute;
-        top: 290%;
+        top: 2100px;
     }
 }
 @media screen and (max-width: 375px){
@@ -400,12 +400,12 @@ iframe {
     }
     .Contact{
         position: absolute;
-        top: 125%;
+        top: 950px;
         left: 90px;
     }
     .form{
         position: absolute;
-        top: 195%;
+        top: 1425px;
         right: 25px;
      }
      
@@ -430,7 +430,7 @@ iframe {
     }
     .map-location {
         position: absolute;
-        top: 245%;
+        top: 1745px;
         left: 21px;
     }
     iframe {
@@ -445,7 +445,7 @@ iframe {
     .footer {
         overflow-x: hidden;
         position: absolute;
-        top: 290%;
+        top: 2000;
         width: 99.13%;
         margin-left: -1rem;
         text-align: center;
@@ -471,13 +471,13 @@ iframe {
     }
     .Contact{
         position: absolute;
-        top: 125%;
+        top: 950px;
         left: 95px;
         font-size: 1rem;
     }
     .form{
         position: absolute;
-        top: 195%;
+        top: 1425px;
         right: 34px;
      }
      .userInfo{
@@ -511,7 +511,7 @@ iframe {
     }
     .map-location {
         position: absolute;
-        top: 240%;
+        top: 1725px;
         left: 35px;
     }
     iframe {
@@ -521,7 +521,7 @@ iframe {
     .footer {
         overflow-x: hidden;
         position: absolute;
-        top: 280%;
+        top: 2000px;
         width: 99.13%;
         margin-left: -1rem;
         text-align: center;
