@@ -10,6 +10,66 @@ body {
   top: 0;
   right: 0;
 }
+.navbar{
+  width: 102%;
+  height: 80px;
+  position: absolute;
+  margin: -8px;
+}
+.header{
+  width: 102%;
+  margin: -8px;
+  display: none;
+  height: 80px;
+  z-index: -1;
+}
+.icon1{
+  height: 35px;
+  width: 35px;
+}
+.header table{
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 35px;
+  color: black;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+}
+#logo{
+  height: 75px;
+  position: absolute;
+  top: 0px;
+  margin-left: 30px;
+}
+#logo:hover{
+  height: 90px;
+  transition-duration: .3s;
+}
+.header:hover{
+  background-color:rgba(255, 255, 255, 0.637);
+}
+.navbar:hover .header{
+  display: block;
+  transition-duration: .5s;
+}
+button{
+  height: 40px;
+  width: 90px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+.icon:hover{
+  width: 40px;
+  height: 38px;
+  filter: invert(100);
+  transition-duration: .3s;
+}
+button:hover{
+  background-color: black;
+  height: 78px;
+  transition-duration: .3s;
+}
 .aboutPage {
   background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
   height: 100vh;
@@ -228,6 +288,22 @@ footer h3 {
 
 /* MOBILE RESPONSIVE*/
 @media screen and (max-width: 1024px){
+  .navbar{
+    width: 102%;
+    height: 80px;
+    position: absolute;
+    margin: -8px;
+  }
+  .header{
+    width: 102%;
+    margin: -8px;
+    display: none;
+    height: 80px;
+    z-index: -1;
+  }
+  .header table{
+    margin-left: 645px;
+  }
   .aboutPage {
     background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
     height: 116vh;
@@ -280,6 +356,28 @@ footer h3 {
 }
 
   @media screen and (max-width: 768px){
+    .navbar{
+      width: 102%;
+      height: 80px;
+      position: absolute;
+      margin: 7px;
+    }
+    .header{
+      width: 102%;
+      margin: -8px;
+      display: none;
+      height: 80px;
+      z-index: -1;
+    }
+    .header table{
+      margin-left: 382px;
+    }
+    #logo{
+      height: 75px;
+      position: absolute;
+      top: 0px;
+      margin-left: 10px;
+    }
     .aboutPage {
       background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
       height: 105vh;
@@ -328,6 +426,28 @@ footer h3 {
   } 
 
   @media screen and (max-width: 425px){
+    .navbar{
+      width: 102%;
+      height: 80px;
+      position: absolute;
+      margin: 7px;
+    }
+    .header{
+      width: 102%;
+      margin: -8px;
+      display: none;
+      height: 80px;
+      z-index: -1;
+    }
+    .header table{
+      margin-left: 382px;
+    }
+    #logo{
+      height: 75px;
+      position: absolute;
+      top: 0px;
+      margin-left: 10px;
+    }
     .aboutPage {
       background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
       height: 106vh;
