@@ -81,3 +81,14 @@ body{
 .Contact h5{
     color: #444444;
 }
+.form{
+    position: absolute;
+    top: 412px;
+    right: 110px;
+ }
+ 
+ .form-desc h2{
+     position: relative;
+     font-size: 1.3rem;
+     text-align: center;
+ }
