@@ -53,33 +53,41 @@ body{
 }
 
 .portfolio-profile {
-    width: 650px;
-    height: 400px;
+    width: 800px;
+    height: 550px;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 50%);
     text-align: center;
 }
-.portfolio-profile img {
-    height: 250px;
-    width: 250px;
-    border-radius: 50%;
-}
+
 .portfolio-profile h1 {
     font-weight: 300;
     margin: 15px;
-    font-size: 6.2rem;
-    -webkit-text-stroke: 1px black;
+    font-size: 9.2rem;
+    -webkit-text-stroke: -1px black;
     color: white;
 }
 
-.portfolio-profile h2 {
-    font-weight: 300;
-    margin: 15px;
-    font-size: 1.9rem;
-    -webkit-text-stroke: 1px black;
-    color: rgb(165, 211, 241);
-    
+
+.portfolio-header{
+    font-size: 4vh;
+    width: 1200px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: left;
+}
+
+.portfolio-header h1{
+  font-size: 5.2rem;
+}
+
+.portfolio-header h2{
+  font-size: 2.2rem;
+  font-style: italic;
+  color: rgb(245, 245, 245);
 }
 
 
@@ -89,7 +97,7 @@ body{
   border: none;
   color: #FFFFFF;
   text-align: center;
-  font-size: 12px;
+  font-size: 11px;
   padding: 10px;
   width: 100px;
   transition: all 0.5s;
@@ -103,6 +111,7 @@ body{
   display: inline-block;
   position: relative;
   transition: 0.5s;
+  color: #FFFFFF;
 }
 
 .button span:after {
