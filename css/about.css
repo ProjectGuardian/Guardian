@@ -1,193 +1,198 @@
 html {
-    margin: 0;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    scroll-behavior: smooth;
+  margin: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
 }
 body {
-    overflow-x: hidden;
-    margin: 0;
-    top: 0;
-    right: 0;
+  overflow-x: hidden;
+  margin: 0;
+  top: 0;
+  right: 0;
 }
 .aboutPage {
-    background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
-    height: 650px;
-    padding: 1px;
-    background-size: 100%;
-    text-align: center;
-    color:white;
+  background: url(../img/background2.jpg) no-repeat center center fixed;
+  height: 650px;
+  padding: 1px;
+  background-size: 100%;
+  text-align: center;
+  color:white;
 }
 .about-profile h1 {
-    font-weight: 300;
-    padding: 0.1px;
-    margin: 150px;
-    font-size: 8rem;
-    color: white;
+  font-weight: 300;
+  padding: 0.1px;
+  margin: 150px;
+  font-size: 8rem;
+  color: white;
 }
 .about-profile h2 {
-    font-weight: 300;
-    padding: 0.1px;
-    margin: -100px;
-    font-size: 4rem;
-    color: white;
+  font-weight: 300;
+  padding: 0.1px;
+  margin: -100px;
+  font-size: 4rem;
+  color: white;
 }
-.footer{
-    color:black;
-    text-align: center;
-    background-color: white;
-    margin: 0px;
-    padding: 18px;
-    width: 100%;
-    }
-footer h3 {
-    text-align: center;
-    }
-.logoFooter {
-    float: center; 
-    padding: 0px;
-    height: 200%;
-    width: 300px; 
-    text-decoration: none;
-    border-radius: 30%;
-  }
-  .who h1 {
-    margin-top: 50px;
-    margin-bottom: -50px;
-    background-color:white;
-    font-size: 8rem;
-    text-align: center;
-    font-family: sans-serif;
-  }
-  .who p {
-    margin: 5px;
-    padding: 80px;
-    background-color:white;
-    text-align: justify;
-    font-size: 1.5rem;
-    font-family: sans-serif;
-  }
-  .team-main-grid {
-    background-color: white;
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    border-style: hidden;
-    border-width: 1000px;
+.who h1 {
+margin-top: 50px;
+margin-bottom: -50px;
+background-color:white;
+font-size: 8rem;
+text-align: center;
+font-family: sans-serif;
+}
+.who p {
+margin: 5px;
+padding: 80px;
+background-color:white;
+text-align: justify;
+font-size: 1.5rem;
+font-family: sans-serif;
+}
+h2 {
+ padding: 20px;
+ margin: 0px;
+ font-size: 8rem;
+ text-align: center;
+ font-family: sans-serif;
+}
+.team-main-grid {
+  background-color: white;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-style: hidden;
+  border-width: 1000px;
 }
 .team-grid1 {
-    position: relative;
-    width: 70%;
-    margin:10px;
-}
-.team-grid2 {
-    position: relative;
-    width: 70%;
-    margin:10px;
-}
-.team-grid3 {
-    position: relative;
-    width: 70%;
-    margin:10px;
-}
-.team-grid4 {
-    position: relative;
-    width: 70%;
-    margin:10px;
-}
-.team-grid5 {
-    position: relative;
-    width: 70%;
-    margin:10px;
-}
-.team-grid6 {
   position: relative;
   width: 70%;
   margin:10px;
 }
+.team-grid2 {
+  position: relative;
+  width: 70%;
+  margin:10px;
+}
+.team-grid3 {
+  position: relative;
+  width: 70%;
+  margin:10px;
+}
+.team-grid4 {
+  position: relative;
+  width: 70%;
+  margin:10px;
+}
+.team-grid5 {
+  position: relative;
+  width: 70%;
+  margin:10px;
+}
+.team-grid6 {
+position: relative;
+width: 70%;
+margin:10px;
+}
 .team-main-grid h1{
-  text-align: center;
-  color: darkgray;
-  font-size: 1.5rem;
-  margin-left: 35%;
+text-align: center;
+color: darkgray;
+font-size: 1.5rem;
+margin-left: 35%;
 }
 .team-main-grid h2 {
-    background-color: black;
-    text-align: center;
-    color: gray;
-    font-size: 1.5rem;
-    margin-left: 40%;
+  background-color: black;
+  text-align: center;
+  color: gray;
+  font-size: 1.5rem;
+  margin-left: 40%;
 }
 .image {
-    filter: grayscale(100%);
-    display: block;
-    margin-left: 35%;
-    margin-right: 35%;
-    position: center;
-    display: block;
-    width: 70%;
-    height: 67%;
-  }
-  .link {
-    color: gray;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  .icon {
-    padding: 30px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-  }
-  .iconFB{
-    width: 40%;
-  }
-  .icontwitter {
-    width: 40%;
-  }
-  .iconig{
-    width: 40%;
-  }
-  .icon:hover {
-      opacity: 0.7;
-  }
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 67%;
-    width: 70%;
-    margin-left: 35%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: whitesmoke;
-  }
-  .team-grid1:hover .overlay {
-    opacity: 1;
-  }
-  .team-grid2:hover .overlay {
-    opacity: 1;
-  }
-  .team-grid3:hover .overlay {
-    opacity: 1;
-  }.team-grid4:hover .overlay {
-    opacity: 1;
-  }.team-grid5:hover .overlay {
-    opacity: 1;
-  }
-  .team-grid6:hover .overlay {
+  filter: grayscale(100%);
+  display: block;
+  margin-left: 35%;
+  margin-right: 35%;
+  position: center;
+  display: block;
+  width: 70%;
+  height: 67%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 67%;
+  width: 70%;
+  margin-left: 35%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: whitesmoke;
+}
+.team-grid1:hover .overlay {
   opacity: 1;
-  }
-
-  
+}
+.team-grid2:hover .overlay {
+  opacity: 1;
+}
+.team-grid3:hover .overlay {
+  opacity: 1;
+}.team-grid4:hover .overlay {
+  opacity: 1;
+}.team-grid5:hover .overlay {
+  opacity: 1;
+}
+.team-grid6:hover .overlay {
+opacity: 1;
+}
+.link {
+  color: gray;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.icon {
+  padding: 30px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.iconFB{
+  width: 40%;
+}
+.icontwitter {
+  width: 40%;
+}
+.iconig{
+  width: 40%;
+}
+.icon:hover {
+    opacity: 0.7;
+}
+.footer{
+color:black;
+text-align: center;
+background-color: white;
+margin: 0px;
+padding: 18px;
+width: 100%;
+}
+footer h3 {
+  text-align: center;
+}
+.logoFooter {
+  float: center; 
+  padding: 0px;
+  height: 200%;
+  width: 300px; 
+  text-decoration: none;
+  border-radius: 30%;
+}
