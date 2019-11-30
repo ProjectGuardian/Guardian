@@ -12,7 +12,7 @@ body {
 }
 .aboutPage {
   background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
-  height: 700px;
+  height: 100vh;
   padding: 1px;
   background-size: 100%;
   text-align: center;
@@ -21,9 +21,10 @@ body {
 .about-profile h1 {
   padding-top: 100px;
   font-weight: 300;
-  padding: 0.1px;
+  padding: 118px;
   font-size: 8rem;
   color: white;
+  overflow-x: hidden;
 }
 .about-profile h2 {
   font-weight: 300;
@@ -31,9 +32,10 @@ body {
   margin: -100px;
   font-size: 4rem;
   color: white;
+  overflow-x: hidden;
 }
 .who h1 {
-  margin-top: 0.1px;
+  margin-top: 1rem;
   margin-bottom: -50px;
   background-color:white;
   font-size: 8rem;
@@ -189,8 +191,8 @@ color:black;
 text-align: center;
 background-color: white;
 margin: 0px;
-padding: 18px;
 width: 100%;
+overflow-x: hidden;
 }
 footer h3 {
   text-align: center;
@@ -234,8 +236,9 @@ footer h3 {
   }
    .about-profile h1 {
     margin-top: 0px;
-    padding-top: 220px;
+    padding-top: 190px;
     text-align: center;
+    margin-bottom: -50px;
     font-weight: 300;
     font-size: 6.2rem;
    }
@@ -279,16 +282,15 @@ footer h3 {
   @media screen and (max-width: 768px){
     .aboutPage {
       background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
-      height: 100vh;
+      height: 105vh;
       background-size: cover;
       text-align: center;
      } 
      .about-profile h1 {
-      margin-top: 2.5px;
       text-align: center;
       font-weight: 300;
-      margin: 90px;
       font-size: 5.5rem;
+      margin-top: -20px;
      }
      .about-profile h2 {
       font-size: 2rem;
@@ -328,15 +330,14 @@ footer h3 {
   @media screen and (max-width: 425px){
     .aboutPage {
       background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
-      height: 80vh;
-      padding: 0px;
+      height: 106vh;
       background-size: cover;
       text-align: center;
      }
      .about-profile h1 {
+      padding-top: 170px;
       text-align: center;
       font-weight: 300;
-      margin-top: 8.5px;
       font-size: 4rem;
      }
      .about-profile h2 {
@@ -381,15 +382,14 @@ footer h3 {
   @media screen and (max-width: 375px){
     .aboutPage {
       background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
-      height: 100vh;
-      padding: 0px;
+      height: 102vh;
       background-size: cover;
       text-align: justify;
      }
   .about-profile h1 {
     font-size: 4.5rem;
     text-align: center;
-    margin: 20px;
+    
   }
   .about-profile h2 {
     font-size: 2rem;
