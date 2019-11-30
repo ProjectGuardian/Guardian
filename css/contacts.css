@@ -36,3 +36,48 @@ body{
 .contact-desc h3{
     font-size: 1.2rem;
 }
+.Contact{
+    position: absolute;
+    top: 475px;
+    left: 230px;
+    font-size: 1.2rem;
+}
+.call_us, .address {
+    margin-bottom: 50px;
+}
+.call_us h4, .address h4, .email h4{
+    letter-spacing: 0.2rem;
+}
+.address a{
+    text-decoration: none;
+}
+
+.call_us img{
+    position: absolute;
+    top: 5px;
+    left: -70px;
+}
+
+.address img{
+    position: absolute;
+    top: 115px;
+    left: -70px;
+}
+
+.email a{
+    text-decoration: none;
+}
+.email img{
+    position: absolute;
+    top: 224px;
+    left: -70px;
+}
+
+.Contact h4{
+    color: #777777;
+    margin: -2.5px;
+}
+
+.Contact h5{
+    color: #444444;
+}
