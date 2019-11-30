@@ -176,3 +176,14 @@ button[type=submit]:hover{
 .footer #icon:hover{
     opacity: 50%;
 }
+@media screen and (max-width: 1440px){
+    .map-location{
+        position: absolute;
+        top: 890px;
+        left: 180px;
+    }
+    iframe{
+        width: 1078px;
+        height: 450px;
+    }
+}
