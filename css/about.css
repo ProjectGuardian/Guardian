@@ -16,7 +16,7 @@ body {
   height: 80px;
   position: absolute;
   margin: -8px;
-  overflow-x: hidden;
+  z-index: 1;
 }
 .header{
   width: 102%;
@@ -24,7 +24,6 @@ body {
   display: none;
   height: 80px;
   z-index: -1;
-  overflow-x: hidden;
 }
 .icon1{
   height: 35px;
@@ -32,8 +31,8 @@ body {
 }
 .header table{
   position: absolute;
-  margin-left: 1000px;
-  margin-top: 35px;
+  margin-left: 885px;
+  margin-top: 30px;
   color: black;
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 20px;
@@ -42,7 +41,7 @@ body {
   height: 75px;
   position: absolute;
   top: 0px;
-  margin-left: 30px;
+  z-index: 1;
 }
 #logo:hover{
   height: 90px;
@@ -56,13 +55,13 @@ body {
   transition-duration: .5s;
 }
 button{
-  height: 40px;
-  width: 90px;
+  height: 30px;
+  width: 120px;
   background-color: transparent;
   cursor: pointer;
   border: none;
 }
-.icon:hover{
+.icon1:hover{
   width: 40px;
   height: 38px;
   filter: invert(100);
@@ -70,7 +69,7 @@ button{
 }
 button:hover{
   background-color: black;
-  height: 78px;
+  height: 40px;
   transition-duration: .3s;
 }
 .aboutPage {
