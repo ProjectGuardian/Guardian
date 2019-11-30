@@ -435,6 +435,9 @@ footer h3 {
       font-size: 1rem;
       text-align: justify;
     }
+    .team-main-grid h1{
+      font-size: 1rem;
+      }
     .team-grid1 img, .team-grid2 img, .team-grid3 img, .team-grid4 img, .team-grid5 img, .team-grid6 img{
       height: 65%;
     }
