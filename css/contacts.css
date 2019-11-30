@@ -19,6 +19,7 @@ body{
     padding-top: 4rem;
     color: white;
     font-size: 6rem;
+    overflow-x: hidden;
 }
 .aboutpage{
     width: 100%;
@@ -177,14 +178,30 @@ button[type=submit]:hover{
     opacity: 50%;
 }
 @media screen and (max-width: 1440px){
+    .Contact{
+        position: absolute;
+        top: 475px;
+        left: 210px;
+        font-size: 1.2rem;
+    }
+    .form{
+        position: absolute;
+        top: 412px;
+        right: 120px;
+     }
     .map-location{
         position: absolute;
         top: 890px;
-        left: 180px;
+        left: 140px;
     }
     iframe{
-        width: 1078px;
+        width: 80vw;
         height: 450px;
+    }
+    .footer #icon{
+        position: absolute;
+        top: 90px;
+        right: 100px;
     }
 }
 @media screen and (max-width: 1024px){
@@ -222,10 +239,10 @@ button[type=submit]:hover{
     .map-location {
         position: absolute;
         top: 870px;
-        left: 89px;
+        left: 100px;
     }
     iframe {
-        width: 841px;
+        width: 80vw;
         height: 450px;
     }
     .footer{
@@ -303,10 +320,10 @@ button[type=submit]:hover{
     .map-location {
         position: absolute;
         top: 1150px;
-        left: 130px;
+        left: 125px;
     }
     iframe {
-        width: 505px;
+        width: 64vw;
         height: 300px;
     }
     .footer{
@@ -378,7 +395,7 @@ button[type=submit]:hover{
         left: 51px;
     }
     iframe {
-        width: 332px;
+        width: 78vw;
         height: 300px;
     }
     .footer{
@@ -432,7 +449,7 @@ button[type=submit]:hover{
         left: 21px;
     }
     iframe {
-        width: 327px;
+        width: 87vw;
         height: 300px;
     }
     .footer #icon{
@@ -512,7 +529,7 @@ button[type=submit]:hover{
         left: 35px;
     }
     iframe {
-        width: 250px;
+        width: 78vw;
         height: 275px;
     }
     .footer {
