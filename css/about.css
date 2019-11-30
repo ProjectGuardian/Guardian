@@ -233,7 +233,7 @@ footer h3 {
     background-size: cover;
   }
    .about-profile h1 {
-    margin-top: -67px;
+    margin-top: 0px;
     padding-top: 220px;
     text-align: center;
     font-weight: 300;
@@ -284,6 +284,7 @@ footer h3 {
       text-align: center;
      } 
      .about-profile h1 {
+      margin-top: 2.5px;
       text-align: center;
       font-weight: 300;
       margin: 90px;
@@ -322,6 +323,8 @@ footer h3 {
     .overlay {
       height: 55%;
   }
+  } 
+
   @media screen and (max-width: 425px){
     .aboutPage {
       background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
@@ -333,7 +336,7 @@ footer h3 {
      .about-profile h1 {
       text-align: center;
       font-weight: 300;
-      margin: 90px;
+      margin-top: 8.5px;
       font-size: 4rem;
      }
      .about-profile h2 {
@@ -341,14 +344,72 @@ footer h3 {
       margin: 2px;
     }
      .who h1 {
-       padding: 0px;
+        margin-top: 2.5px;
        font-size: 2rem;
-     }
+    }
      .who p {
       font-size: 1rem;
     }
+    .team-main-grid h1{
+    font-size: 1.2rem;
+    }
+    .team-main-grid h2 {
+      font-size: 1em;
+    }
+    .team-main-grid {
+      display: grid;
+      grid-template-columns: none;
+    }
+    h2 {
+    font-size: 2rem;
+    }
+    .team-main-grid h1{
+    font-size: 1.2rem;
+    }
+    .team-grid1 img, .team-grid2 img, .team-grid3 img, .team-grid4 img, .team-grid5 img, .team-grid6 img{
+      height: 55%;
+      position: sticky;
+    }
+    .overlay {
+      height: 55%;
+    }
   }
-}
+
+  @media screen and (max-width: 375px){
+    .aboutPage {
+      background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
+      height: 65vh;
+      padding: 0px;
+      background-size: cover;
+      text-align: justify;
+     }
+  .about-profile h1 {
+    font-size: 4.5rem;
+    text-align: center;
+    margin: 20px;
+  }
+  .about-profile h2 {
+    font-size: 2rem;
+    margin: 0px;
+  }
+  .who h1 {
+    margin-top: 2.5px;
+    font-size: 2.5rem;
+  }
+  .team-grid1 img, .team-grid2 img, .team-grid3 img, .team-grid4 img, .team-grid5 img, .team-grid6 img{
+    height: 60%;
+  }
+  .overlay {
+    height: 60%;
+  }
+  }
+  
+  @media screen and (max-width: 320px){
+  
+  }
+
+  
+
 
 
 
