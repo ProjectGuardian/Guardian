@@ -386,3 +386,72 @@ button[type=submit]:hover{
         top: 94rem;
     }
 }
+@media screen and (max-width: 375px){
+    .contacts-content-header h1{
+        font-size: 5rem;
+    }
+    .contact-desc h2, .contact-desc h3{
+        position: relative;
+        left: 10px;
+    }
+    .contact-desc h3{
+        font-size: 0.77rem;
+    }
+    .Contact{
+        position: absolute;
+        top: 375px;
+        left: 90px;
+    }
+    .form{
+        position: absolute;
+        top: 865px;
+        right: 25px;
+     }
+     
+     .userInfo{
+         margin: 5px 8px 20px 0px;
+         width: 332px;
+         height: 30px;
+     }
+     
+     #userMessage{
+         width: 330px;
+         height: 275px;
+     }
+     #submitButton{
+        margin-left: 180px;
+        height: 20px;
+        width: 75px;
+        background-color: orange;
+        border-width: 0px;
+        margin-bottom: 10px;
+    }
+    .map-location {
+        position: absolute;
+        top: 1180px;
+        left: 21px;
+    }
+    iframe {
+        width: 327px;
+        height: 300px;
+    }
+    .footer #icon{
+        position: absolute;
+        top: 80px;
+        right: 30px;
+    }
+    .footer {
+        overflow-x: hidden;
+        position: absolute;
+        top: 93rem;
+        width: 99.13%;
+        margin-left: -1rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-size: 0.6rem;
+        padding: 10px;
+        letter-spacing: 0.2rem;
+        font-weight: bold;
+    }
+}
