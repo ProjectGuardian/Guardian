@@ -101,6 +101,10 @@ z-index: 1;
     font-family: cube;
     src: url(fonts/Cube.ttf)
 }
+@font-face{
+    font-family: dimis;
+    src: url(fonts/dimis.ttf)
+}
 .m{
     height: 250px;
     
@@ -140,4 +144,37 @@ z-index: 1;
     font-style: italic;
     color: white;
     font-size: 20px;
+}
+.date{
+    font-size: 25px;
+    text-align: center;
+}
+.smallbox{
+    font-family: dimis;
+    font-size: 38px;
+}
+.boxes:hover{
+    transition-duration: .3s;
+    color: white;
+}
+#tblogo{
+    height: 200px;
+    margin-top: -30px;
+    margin-left: 43px;
+    position: absolute;
+}
+.copyright{
+    margin-top: 150px;
+    margin-left: 140px;
+    position: absolute;
+}
+.bird-box:hover #tblogo{
+    transition-duration: .3s;
+    filter: invert(100);
+    height: 220px;
+    margin-left: 23px;
+}
+.bird-box:hover .copyright{
+    color: white;
+    transition-duration: .3s;
 }
