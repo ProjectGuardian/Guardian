@@ -149,3 +149,8 @@ button[type=submit]:hover{
     border-radius: 4px;
     cursor: pointer;
 }
+.map-location{
+    position: absolute;
+    top: 890px;
+    left: 160px;
+}
