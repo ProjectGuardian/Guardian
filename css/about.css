@@ -130,8 +130,9 @@ margin-left: 35%;
   opacity: 0;
   transition: .5s ease;
   background-color: whitesmoke;
+  margin-bottom:-8px;
 }
-.team-grid1:hover .overlay {
+.team-grid1:hover .overlay{
   opacity: 1;
 }
 .team-grid2:hover .overlay {
@@ -198,6 +199,8 @@ footer h3 {
   text-decoration: none;
   border-radius: 30%;
 }
+
+
 @media screen and (max-width:812px){
   html,body {
     width: 100%;
@@ -245,3 +248,56 @@ footer h3 {
       position: sticky;
       margin: 120px;
   }
+
+  h2 {
+    padding: 20px;
+    margin: 0px;
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: sans-serif;
+ }
+  .team-main-grid {
+    grid-template-columns: none;
+    text-align: center;
+    position: sticky;
+  }
+.image {
+  filter: grayscale(100%);
+  display: block;
+  margin-left: 35%;
+  margin-right: 35%;
+  width: 50%;
+  position: center;
+  display: block;
+  width: 70%;
+  height: 68%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 68%;
+  width: 70%;
+  margin-left: 35%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: whitesmoke;
+}
+.team-grid1:hover .overlay {
+  opacity: 1;
+}
+.team-grid2:hover .overlay {
+  opacity: 1;
+}
+.team-grid3:hover .overlay {
+  opacity: 1;
+}.team-grid4:hover .overlay {
+  opacity: 1;
+}.team-grid5:hover .overlay {
+  opacity: 1;
+}
+.team-grid6:hover .overlay {
+opacity: 1;
+}
