@@ -154,3 +154,25 @@ button[type=submit]:hover{
     top: 890px;
     left: 160px;
 }
+.footer {
+    overflow-x: hidden;
+    position: absolute;
+    top: 85rem;
+    width: 99.13%;
+    margin-left: -1rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    padding: 10px;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+.footer #icon{
+    position: absolute;
+    top: 90px;
+    right: 30px;
+}
+.footer #icon:hover{
+    opacity: 50%;
+}

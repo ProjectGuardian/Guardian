@@ -8,3 +8,7 @@ function appendMailTo(){
     mailToAttr.setAttribute("href", "mailto:ProjGuardian.Org@gmail.com?subject="+subject+"&body="+message);
 
 }
+let date = new Date();
+let yearPos = document.getElementById("getYear");
+let currYear = date.getFullYear();
+yearPos.innerHTML = currYear;  
