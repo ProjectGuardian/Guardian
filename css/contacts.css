@@ -92,3 +92,8 @@ body{
      font-size: 1.3rem;
      text-align: center;
  }
+ .userInfo{
+    margin: 5px 8px 27px 0px;
+    width: 215px;
+    height: 40px;
+}
