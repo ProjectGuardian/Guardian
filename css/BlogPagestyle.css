@@ -158,4 +158,128 @@ body{
     border-radius: 30%;
 }
 
+@media screen and (max-width: 1024px){
+.portfolio-hero {
+  background: url(../img/background3.jpg) no-repeat center center fixed;
+  height: 100vh;
+  padding: 0px;
+  background-size: 150%;
+  text-align: center;
+  color: white;
+ }
 
+ #blogPage .content h2 {
+  color: #333;
+  font-weight: 300;
+  font-size: 34px;
+  text-align: left;
+  }
+
+  .portfolio-header h1 {
+    font-weight: 300;
+    margin: 15px;
+    font-size: 4.2rem;
+    -webkit-text-stroke: -1px black;
+    color: white;
+    text-align: center;
+}
+
+.portfolio-header h2{
+  font-size: 2.2rem;
+  font-style: italic;
+  color: rgb(245, 245, 245);
+  text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .portfolio-hero {
+    background: url(../img/background3.jpg) no-repeat center center fixed;
+    height: 100vh;
+    padding: 0px;
+    background-size: 200%;
+    text-align: center;
+    color: white;
+   }
+
+   .portfolio-profile h1 {
+    font-weight: 300;
+    margin: 15px;
+    font-size: 6.2rem;
+    -webkit-text-stroke: -1px black;
+    color: white;
+}
+  
+   #blogPage .content h2 {
+    color: #333;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: left;
+    }
+  
+    .portfolio-header h1 {
+      font-weight: 300;
+      margin: 15px;
+      font-size: 4.2rem;
+      -webkit-text-stroke: -1px black;
+      color: white;
+      text-align: center;
+  }
+  
+  .portfolio-header h2{
+    font-size: 2.2rem;
+    font-style: italic;
+    color: rgb(245, 245, 245);
+    text-align: center;
+    }
+}
+
+@media screen and (max-width: 425px){
+  .portfolio-hero {
+    background: url(../img/background3.jpg) no-repeat center center fixed;
+    height: 100vh;
+    padding: 0px;
+    background-size: 350%;
+    text-align: center;
+    color: white;
+   }
+
+   .portfolio-profile h1 {
+    font-weight: 300;
+    margin: 15px;
+    font-size: 4.2rem;
+    -webkit-text-stroke: -1px black;
+    color: white;
+}
+  
+   #blogPage .content h2 {
+    color: #333;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: left;
+    }
+  
+    .portfolio-header h1 {
+      font-weight: 300;
+      margin: 15px;
+      font-size: 4.2rem;
+      -webkit-text-stroke: -1px black;
+      color: white;
+      text-align: center;
+  }
+  
+  .portfolio-header h2{
+    font-size: 2.2rem;
+    font-style: italic;
+    color: rgb(245, 245, 245);
+    text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px){
+
+}
+
+@media screen and (max-width: 320px){
+
+}
