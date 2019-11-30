@@ -113,7 +113,7 @@ margin-left: 35%;
   display: block;
   margin-left: 35%;
   margin-right: 35%;
-  position: center;
+  position: sticky;
   display: block;
   width: 70%;
   height: 70%;
