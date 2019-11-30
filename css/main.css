@@ -322,27 +322,173 @@ video{
 @media screen and (max-width: 1024px){
     body{
         width: 1024px;
+        background-color: black;
     }
     .navbar{
         width: 1024px;
-        height: 80px;
+        height: 50px;
         position: absolute;
         margin: -8px;
     }
     .header table{
         position: absolute;
         margin-left: 495px;
-        margin-top: 40px;
+        margin-top: 30px;
         color: black;
         font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 20px;
-    
     }
-    iframe{
-        margin: -8px;
-        width: 1034px;
-        height: 702px;
-    }
+    .slideshow{
+        position: absolute;
+        height: 325px;
+        width: 600px;
+        background-color: gray;
+        margin-top: 65px;
+        margin-left: 160px;
+        z-index: 1;
+        }
+        img{
+            height: 325px;
+            margin-left: 20px;
+            z-index: -1;
+            filter: grayscale(100);
+        }
+        .first-box{
+        position: absolute;
+        background-color: gray;
+        height: 150px;
+        width: 120px;
+        margin-top: 408px;
+        margin-left: 160px;
+        z-index: 1;
+        }
+        .second-box{
+        position: absolute;
+        background-color: gray;
+        height: 150px;
+        width: 120px;
+        margin-top: 408px;
+        margin-left: 300px;
+        z-index: 1;
+        }
+        .third-box{
+        position: absolute;
+        background-color: gray;
+        height: 150px;
+        width: 340px;
+        margin-top: 408px;
+        margin-left: 440px;
+        z-index: 1;
+        }
+        #tblogo{
+            height: 150px;
+            margin-top: -20px;
+            margin-left: 33px;
+            position: absolute;
+        }
+        .copyright{
+            margin-top: 100px;
+            margin-left: 80px;
+            position: absolute;
+        }
+        .bird-box:hover #tblogo{
+            transition-duration: .3s;
+            filter: invert(100);
+            height: 160px;
+            margin-left: 23px;
+        }
+        .left-gallery{
+            position: absolute;
+            margin-top: -15px;
+            margin-left: 20px;
+            z-index: 1;
+            }
+            .left-imgs{
+            height: 140px;
+            filter: grayscale(100);
+        
+            }
+            .date{
+                font-size: 20px;
+                text-align: center;
+            }
+            .smallbox{
+                font-family: dimis;
+                font-size: 30px;
+            }
+            .mission-box{
+                position: absolute;
+                background-color: gray;
+                width: 200px;
+                height: 235px;
+                margin-top: 66px;
+                margin-left: 800px;
+                z-index: 1;
+                }
+                .mvdetails{
+                    z-index: -1;
+                    position: absolute;
+                    margin-top: 10px;
+                    padding: 30px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-align: center;
+                    font-style: italic;
+                    color: white;
+                    font-size: 12px;
+                }
+                .m{
+                    display: none;
+                    margin-left: -5px;
+                    
+                }
+                .m2{
+                    display: none;
+                    margin-left: -5px;
+                    position: absolute;
+                    z-index: -1;
+                    filter: invert(100);
+                }
+                .v{
+                    display: none;
+                    height: 200px;
+                    margin-left: 10px;
+                    margin-bottom: 30px;
+                }
+                .v2{
+                    display: none;
+                    height: 200px;
+                    position: absolute;
+                    margin-left: 10px;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                    z-index: -1;
+                    filter: invert(100);
+                }
+                .mvlabel{
+                    font-family: cube;
+                    font-size: 12px;
+                    font-weight: bolder;
+                }
+                .mission{
+                    z-index: -1;
+                    background-color: gray;
+                }
+                .vision-box{
+                    position: absolute;
+                    background-color: gray;
+                    width: 200px;
+                    height: 235px;
+                    margin-top: 320px;
+                    margin-left: 800px;
+                    z-index: 1;
+                    }
+                    video{
+                        margin: -8px;
+                        width: 101%;
+                        -webkit-filter: grayscale(100%);
+                         filter: grayscale(100%);
+                         z-index: -1;
+                        }
 }
 @media screen and (max-width: 768px){
     body{
@@ -363,11 +509,157 @@ video{
         font-size: 20px;
     
     }
-    iframe{
-        margin: -8px;
-        width: 778px;
-        height: 702px;
-    }
+    .slideshow{
+        position: absolute;
+        height: 325px;
+        width: 600px;
+        background-color: gray;
+        margin-top: 65px;
+        margin-left: 130px;
+        z-index: 1;
+        }
+        img{
+            height: 325px;
+            margin-left: 20px;
+            z-index: -1;
+            filter: grayscale(100);
+        }
+        .first-box{
+        position: absolute;
+        background-color: gray;
+        height: 150px;
+        width: 120px;
+        margin-top: 408px;
+        margin-left: 130px;
+        z-index: 1;
+        }
+        .second-box{
+        position: absolute;
+        background-color: gray;
+        height: 150px;
+        width: 120px;
+        margin-top: 408px;
+        margin-left: 270px;
+        z-index: 1;
+        }
+        .third-box{
+        position: absolute;
+        background-color: gray;
+        height: 150px;
+        width: 340px;
+        margin-top: 408px;
+        margin-left: 410px;
+        z-index: 1;
+        }
+        #tblogo{
+            height: 150px;
+            margin-top: -20px;
+            margin-left: 33px;
+            position: absolute;
+        }
+        .copyright{
+            margin-top: 100px;
+            margin-left: 80px;
+            position: absolute;
+        }
+        .bird-box:hover #tblogo{
+            transition-duration: .3s;
+            filter: invert(100);
+            height: 160px;
+            margin-left: 23px;
+        }
+        .left-gallery{
+            position: absolute;
+            margin-top: -15px;
+            margin-left: -20px;
+            z-index: 1;
+            }
+            .left-imgs{
+            height: 140px;
+            filter: grayscale(100);
+        
+            }
+            .date{
+                font-size: 20px;
+                text-align: center;
+            }
+            .smallbox{
+                font-family: dimis;
+                font-size: 30px;
+            }
+            .mission-box{
+                position: absolute;
+                background-color: gray;
+                width: 300px;
+                height: 105px;
+                margin-top: 576px;
+                margin-left: 130px;
+                z-index: 1;
+                }
+                .mvdetails{
+                    z-index: -1;
+                    position: absolute;
+                    margin-top: -30px;
+                    padding: 30px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-align: center;
+                    font-style: italic;
+                    color: white;
+                    font-size: 12px;
+                }
+                .m{
+                    display: none;
+                    margin-left: -5px;
+                    
+                }
+                .m2{
+                    display: none;
+                    margin-left: -5px;
+                    position: absolute;
+                    z-index: -1;
+                    filter: invert(100);
+                }
+                .v{
+                    display: none;
+                    height: 200px;
+                    margin-left: 10px;
+                    margin-bottom: 30px;
+                }
+                .v2{
+                    display: none;
+                    height: 200px;
+                    position: absolute;
+                    margin-left: 10px;
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                    z-index: -1;
+                    filter: invert(100);
+                }
+                .mvlabel{
+                    font-family: cube;
+                    font-size: 12px;
+                    font-weight: bolder;
+                }
+                .mission{
+                    z-index: -1;
+                    background-color: gray;
+                }
+                .vision-box{
+                    position: absolute;
+                    background-color: gray;
+                    width: 300px;
+                    height: 105px;
+                    margin-top: 574px;
+                    margin-left: 450px;
+                    z-index: 1;
+                    }
+                    video{
+                        margin: -8px;
+                        width: 101%;
+                        -webkit-filter: grayscale(100%);
+                         filter: grayscale(100%);
+                         z-index: -1;
+                        }
 }
 @media screen and (max-width: 425px){
     body{
