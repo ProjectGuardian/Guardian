@@ -8,62 +8,61 @@ body{
     position: absolute;
     margin: -8px;
     z-index: 1;
-}
-.header{
+  }
+  .header{
     width: 102%;
     margin: -8px;
     display: none;
     height: 80px;
-    z-index: 1;
-}
-.icon{
+    z-index: -1;
+  }
+  .icon{
     height: 35px;
     width: 35px;
-}
-.header table{
+  }
+  .header table{
     position: absolute;
-    margin-left: 1000px;
-    margin-top: 40px;
+    margin-left: 885px;
+    margin-top: 30px;
     color: black;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
-
-}
-#logo{
-    height: 80px;
+  }
+  #logo{
+    height: 75px;
     position: absolute;
-    margin-left: 20px;
+    top: 0px;
     z-index: 1;
-}
-#logo:hover{
-    height: 100px;
+  }
+  #logo:hover{
+    height: 90px;
     transition-duration: .3s;
-}
-.header:hover{
+  }
+  .header:hover{
     background-color:rgba(255, 255, 255, 0.637);
-}
-.navbar:hover .header{
+  }
+  .navbar:hover .header{
     display: block;
     transition-duration: .5s;
-}
-button{
+  }
+  button{
     height: 30px;
     width: 120px;
     background-color: transparent;
     cursor: pointer;
     border: none;
-}
-.icon:hover{
+  }
+  .icon:hover{
     width: 40px;
     height: 38px;
     filter: invert(100);
     transition-duration: .3s;
-}
-button:hover{
+  }
+  button:hover{
     background-color: black;
     height: 40px;
     transition-duration: .3s;
-}
+  }
 video{
     margin: -8px;
     width: 104%;
