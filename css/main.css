@@ -680,11 +680,6 @@ video{
         font-size: 20px;
     
     }
-    iframe{
-        margin: -8px;
-        width: 425px;
-        height: 702px;
-    }
 }
 @media screen and (max-width: 375px){
     body{
