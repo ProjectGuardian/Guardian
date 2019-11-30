@@ -1,0 +1,74 @@
+body{
+    overflow: hidden;
+}
+video{
+margin: -8px;
+width: 104%;
+-webkit-filter: grayscale(100%);
+ filter: grayscale(100%);
+}
+.left-gallery{
+position: absolute;
+margin-top: -15px;
+margin-left: 20px;
+z-index: 1;
+}
+.left-imgs{
+height: 150px;
+filter: grayscale(100);
+z-index: 1;
+}
+.slideshow{
+position: absolute;
+height: 425px;
+width: 800px;
+background-color: gray;
+margin-top: 65px;
+margin-left: 180px;
+z-index: 1;
+}
+.first-box{
+position: absolute;
+background-color: gray;
+height: 200px;
+width: 170px;
+margin-top: 498px;
+margin-left: 180px;
+z-index: 1;
+}
+.second-box{
+position: absolute;
+background-color: gray;
+height: 200px;
+width: 170px;
+margin-top: 498px;
+margin-left: 360px;
+z-index: 1;
+}
+.third-box{
+position: absolute;
+background-color: gray;
+height: 200px;
+width: 440px;
+margin-top: 498px;
+margin-left: 540px;
+z-index: 1;
+}
+.mission-box{
+position: absolute;
+background-color: gray;
+width: 220px;
+height: 635px;
+margin-top: 65px;
+margin-left: 1025px;
+z-index: 1;
+}
+.vision-box{
+position: absolute;
+background-color: gray;
+width: 220px;
+height: 635px;
+margin-top: 65px;
+margin-left: 1255px;
+z-index: 1;
+}

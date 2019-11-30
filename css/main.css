@@ -28,7 +28,7 @@ iframe{
     position: absolute;
     margin-left: 1000px;
     margin-top: 40px;
-    color: white;
+    color: black;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
 
@@ -37,6 +37,10 @@ iframe{
     height: 80px;
     position: absolute;
     margin-left: 20px;
+}
+#logo:hover{
+    height: 100px;
+    transition-duration: .3s;
 }
 .header:hover{
     background-color:rgba(255, 255, 255, 0.637);
@@ -52,4 +56,138 @@ button{
     cursor: pointer;
     border: none;
 }
+.icon:hover{
+    width: 40px;
+    height: 38px;
+    filter: invert(100);
+    transition-duration: .3s;
+}
+button:hover{
+    background-color: black;
+    height: 40px;
+    transition-duration: .3s;
+}
 
+@media screen and (max-width: 1440px){
+    body{
+        width: 1440px;
+    }
+    .navbar{
+        width: 1440px;
+        height: 80px;
+        position: absolute;
+        margin: -8px;
+    }
+    .header table{
+        position: absolute;
+        margin-left: 950px;
+        margin-top: 40px;
+        color: black;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+    
+    }
+    iframe{
+        margin: -8px;
+        width: 1449px;
+        height: 755px;
+    }
+}
+@media screen and (max-width: 1024px){
+    body{
+        width: 1024px;
+    }
+    .navbar{
+        width: 1024px;
+        height: 80px;
+        position: absolute;
+        margin: -8px;
+    }
+    .header table{
+        position: absolute;
+        margin-left: 495px;
+        margin-top: 40px;
+        color: black;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+    
+    }
+    iframe{
+        margin: -8px;
+        width: 1034px;
+        height: 702px;
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+        width: 768px;
+    }
+    .navbar{
+        width: 778px;
+        height: 40px;
+        position: absolute;
+        margin: -8px;
+    }
+    .header table{
+        position: absolute;
+        margin-left: 255px;
+        margin-top: 40px;
+        color: black;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+    
+    }
+    iframe{
+        margin: -8px;
+        width: 778px;
+        height: 702px;
+    }
+}
+@media screen and (max-width: 425px){
+    body{
+        width: 425px;
+    }
+    .navbar{
+        width: 425px;
+        height: 40px;
+        position: absolute;
+        margin: -8px;
+    }
+    .header table{
+        position: absolute;
+        margin-left: 255px;
+        margin-top: 40px;
+        color: black;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+    
+    }
+    iframe{
+        margin: -8px;
+        width: 425px;
+        height: 702px;
+    }
+}
+@media screen and (max-width: 375px){
+    body{
+        width: 375px;
+    }
+    .navbar{
+        width: 375px;
+        height: 40px;
+        position: absolute;
+        margin: -8px;
+    }
+    .header table{
+        position: absolute;
+        margin-left: 255px;
+        margin-top: 40px;
+        color: black;
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 20px;
+    }
+    iframe{
+        margin: -8px;
+        width: 375px;
+      
+}
