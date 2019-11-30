@@ -3,6 +3,7 @@ html {
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   scroll-behavior: smooth;
+  
 }
 body {
   overflow-x: hidden;
@@ -10,9 +11,71 @@ body {
   top: 0;
   right: 0;
 }
+.navbar{
+  width: 102%;
+  height: 80px;
+  position: absolute;
+  margin: -8px;
+  overflow-x: hidden;
+}
+.header{
+  width: 102%;
+  margin: -8px;
+  display: none;
+  height: 80px;
+  z-index: -1;
+  overflow-x: hidden;
+}
+.icon1{
+  height: 35px;
+  width: 35px;
+}
+.header table{
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: 35px;
+  color: black;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+}
+#logo{
+  height: 75px;
+  position: absolute;
+  top: 0px;
+  margin-left: 30px;
+}
+#logo:hover{
+  height: 90px;
+  transition-duration: .3s;
+}
+.header:hover{
+  background-color:rgba(255, 255, 255, 0.637);
+}
+.navbar:hover .header{
+  display: block;
+  transition-duration: .5s;
+}
+button{
+  height: 40px;
+  width: 90px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+.icon:hover{
+  width: 40px;
+  height: 38px;
+  filter: invert(100);
+  transition-duration: .3s;
+}
+button:hover{
+  background-color: black;
+  height: 78px;
+  transition-duration: .3s;
+}
 .aboutPage {
   background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
-  height: 700px;
+  height: 100vh;
   padding: 1px;
   background-size: 100%;
   text-align: center;
@@ -21,9 +84,10 @@ body {
 .about-profile h1 {
   padding-top: 100px;
   font-weight: 300;
-  padding: 0.1px;
+  padding: 118px;
   font-size: 8rem;
   color: white;
+  overflow-x: hidden;
 }
 .about-profile h2 {
   font-weight: 300;
@@ -31,9 +95,10 @@ body {
   margin: -100px;
   font-size: 4rem;
   color: white;
+  overflow-x: hidden;
 }
 .who h1 {
-  margin-top: 0.1px;
+  margin-top: 1rem;
   margin-bottom: -50px;
   background-color:white;
   font-size: 8rem;
@@ -189,8 +254,8 @@ color:black;
 text-align: center;
 background-color: white;
 margin: 0px;
-padding: 18px;
 width: 100%;
+overflow-x: hidden;
 }
 footer h3 {
   text-align: center;
@@ -226,6 +291,23 @@ footer h3 {
 
 /* MOBILE RESPONSIVE*/
 @media screen and (max-width: 1024px){
+  .navbar{
+    width: 102%;
+    height: 80px;
+    position: absolute;
+    margin: -8px;
+    overflow-x: hidden;
+  }
+  .header{
+    width: 102%;
+    margin: -8px;
+    display: none;
+    height: 80px;
+    z-index: -1;
+  }
+  .header table{
+    margin-left: 645px;
+  }
   .aboutPage {
     background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
     height: 116vh;
@@ -233,9 +315,10 @@ footer h3 {
     background-size: cover;
   }
    .about-profile h1 {
-    margin-top: -67px;
-    padding-top: 220px;
+    margin-top: 0px;
+    padding-top: 190px;
     text-align: center;
+    margin-bottom: -50px;
     font-weight: 300;
     font-size: 6.2rem;
    }
@@ -277,17 +360,39 @@ footer h3 {
 }
 
   @media screen and (max-width: 768px){
+    .navbar{
+      width: 102%;
+      height: 80px;
+      position: absolute;
+      margin: 7px;
+    }
+    .header{
+      width: 102%;
+      margin: -8px;
+      display: none;
+      height: 80px;
+      z-index: -1;
+    }
+    .header table{
+      margin-left: 382px;
+    }
+    #logo{
+      height: 75px;
+      position: absolute;
+      top: 0px;
+      margin-left: 10px;
+    }
     .aboutPage {
       background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
-      height: 100vh;
+      height: 105vh;
       background-size: cover;
       text-align: center;
      } 
      .about-profile h1 {
       text-align: center;
       font-weight: 300;
-      margin: 90px;
       font-size: 5.5rem;
+      margin-top: -20px;
      }
      .about-profile h2 {
       font-size: 2rem;
@@ -322,18 +427,48 @@ footer h3 {
     .overlay {
       height: 55%;
   }
-  @media screen and (max-width: 425px){
+  } 
+
+  @media screen and (max-width: 426px){
+    .navbar{
+      width: 102%;
+      height: 80px;
+      position: absolute;
+      margin: 7px;
+    }
+    .header{
+      width: 102%;
+      margin: -8px;
+      display: none;
+      height: 80px;
+      z-index: -1;
+    }
+    .header table{
+      margin-left: 180px;
+    }
+    #logo{
+      height: 75px;
+      position: absolute;
+      top: 0px;
+      margin-left: 10px;
+    }
+    button{
+      height: 40px;
+      width: 43px;
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
+    }
     .aboutPage {
       background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
-      height: 80vh;
-      padding: 0px;
+      height: 106vh;
       background-size: cover;
       text-align: center;
      }
      .about-profile h1 {
+      padding-top: 170px;
       text-align: center;
       font-weight: 300;
-      margin: 90px;
       font-size: 4rem;
      }
      .about-profile h2 {
@@ -341,14 +476,167 @@ footer h3 {
       margin: 2px;
     }
      .who h1 {
-       padding: 0px;
+        margin-top: 2.5px;
        font-size: 2rem;
-     }
+    }
      .who p {
       font-size: 1rem;
     }
+    .team-main-grid h1{
+    font-size: 1.2rem;
+    }
+    .team-main-grid h2 {
+      font-size: 1em;
+    }
+    .team-main-grid {
+      display: grid;
+      grid-template-columns: none;
+    }
+    h2 {
+    font-size: 2rem;
+    }
+    .team-main-grid h1{
+    font-size: 1.2rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+      }
+    .team-grid1 img, .team-grid2 img, .team-grid3 img, .team-grid4 img, .team-grid5 img, .team-grid6 img{
+      height: 55%;
+      position: sticky;
+    }
+    .overlay {
+      height: 55%;
+    }
+  }
+
+  @media screen and (max-width: 375px){
+    .navbar{
+      width: 102%;
+      height: 80px;
+      position: absolute;
+      margin: 7px;
+    }
+    .header{
+      width: 102%;
+      margin: -8px;
+      display: none;
+      height: 80px;
+      z-index: -1;
+    }
+    .header table{
+      margin-left: 150px;
+    }
+    #logo{
+      height: 75px;
+      position: absolute;
+      top: 0px;
+      margin-left: 10px;
+    }
+    button{
+      height: 40px;
+      width: 43px;
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
+    }
+    .aboutPage {
+      background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
+      height: 102vh;
+      background-size: cover;
+      text-align: justify;
+     }
+  .about-profile h1 {
+    font-size: 4.5rem;
+    text-align: center;
+    
+  }
+  .about-profile h2 {
+    font-size: 2rem;
+    margin: 0px;
+  }
+  .who h1 {
+    margin-top: 2.5px;
+    font-size: 2.5rem;
+  }
+  .team-grid1 img, .team-grid2 img, .team-grid3 img, .team-grid4 img, .team-grid5 img, .team-grid6 img{
+    height: 60%;
+  }
+  .overlay {
+    height: 60%;
   }
 }
+  
+  @media screen and (max-width: 320px){
+    .navbar{
+      width: 102%;
+      height: 80px;
+      position: absolute;
+      margin: 7px;
+    }
+    .header{
+      width: 102%;
+      margin: -8px;
+      display: none;
+      height: 80px;
+      z-index: -1;
+    }
+    .header table{
+      margin-left: 10 0px;
+    }
+    #logo{
+      height: 67px;
+      position: absolute;
+      top: 0px;
+      margin-left: -5px;
+    }
+    button{
+      height: 40px;
+      width: 43px;
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
+    }
+    .aboutPage {
+      background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
+      height: 100vh;
+      padding: 0px;
+      background-size: cover;
+      text-align: justify;
+     }
+     .about-profile h1 {
+      font-size: 3rem;
+      text-align: center;
+      margin: 20px;
+    }
+    .about-profile h2 {
+      font-size: 1.5rem;
+      margin: 0px;
+    }
+    h2 {
+      font-size: 2rem;
+      }
+    .who h1 {
+      margin-top: 2.5px;
+      font-size: 2.5rem;
+    }
+    .who p {
+      font-size: 1rem;
+      text-align: justify;
+    }
+    .team-main-grid h1{
+      font-size: 1rem;
+      }
+    .team-grid1 img, .team-grid2 img, .team-grid3 img, .team-grid4 img, .team-grid5 img, .team-grid6 img{
+      height: 65%;
+    }
+    .overlay {
+      height: 65%;
+    }
+  }
+
+  
+
 
 
 

@@ -16,7 +16,7 @@ iframe{
     width: 102%;
     margin: -8px;
     display: none;
-    height: 80px;
+    height: 60px;
     z-index: -1;
 }
 .icon{
@@ -33,7 +33,7 @@ iframe{
 
 }
 #logo{
-    height: 80px;
+    height: 10vh;
     position: absolute;
     margin-left: 20px;
 }
@@ -50,7 +50,7 @@ iframe{
 }
 button{
     height: 30px;
-    width: 120px;
+    width: 80px;
     background-color: transparent;
     cursor: pointer;
     border: none;
@@ -79,8 +79,8 @@ button:hover{
     }
     .header table{
         position: absolute;
-        margin-left: 950px;
-        margin-top: 40px;
+        margin-left: 975px;
+        margin-top: 21px;
         color: black;
         font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 20px;

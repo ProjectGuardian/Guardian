@@ -10,57 +10,57 @@ width: 104%;
 .left-gallery{
 position: absolute;
 margin-top: -15px;
-margin-left: 20px;
+margin-left: 4px;
 z-index: 1;
 }
 .left-imgs{
-height: 150px;
+height: 17.2vh;
 filter: grayscale(100);
 z-index: 1;
 }
 .slideshow{
 position: absolute;
-height: 425px;
-width: 800px;
+height: 48vh;
+width: 93vh;
 background-color: gray;
-margin-top: 65px;
-margin-left: 180px;
+margin-top: 45px;
+margin-left: 136px;
 z-index: 1;
 }
 .first-box{
 position: absolute;
 background-color: gray;
-height: 200px;
-width: 170px;
-margin-top: 498px;
-margin-left: 180px;
+height: 26vh;
+width: 24vh;
+margin-top: 416px;
+margin-left: 136px;
 z-index: 1;
 }
 .second-box{
 position: absolute;
 background-color: gray;
-height: 200px;
-width: 170px;
-margin-top: 498px;
-margin-left: 360px;
+height: 26vh;
+width: 24vh;
+margin-top: 416px;
+margin-left: 326px;
 z-index: 1;
 }
 .third-box{
 position: absolute;
 background-color: gray;
-height: 200px;
-width: 460px;
-margin-top: 498px;
-margin-left: 540px;
+height: 26vh;
+width: 45vh;
+margin-top: 416px;
+margin-left: 518px;
 z-index: 1;
 }
 .mission-box{
 position: absolute;
 background-color: gray;
-width: 220px;
-height: 635px;
-margin-top: 66px;
-margin-left: 1025px;
+width: 29vh;
+height: 75vh;
+margin-top: 47px;
+margin-left: 876px;
 z-index: 1;
 }
 .mission{
@@ -79,10 +79,10 @@ z-index: 1;
 .vision-box{
 position: absolute;
 background-color: gray;
-width: 220px;
-height: 635px;
-margin-top: 65px;
-margin-left: 1255px;
+width: 29vh;
+height: 75vh;
+margin-top: 47px;
+margin-left: 1106px;
 z-index: 1;
 }
 .vision{
@@ -133,7 +133,7 @@ z-index: 1;
 }
 .mvlabel{
     font-family: cube;
-    font-size: 20px;
+    font-size: 19px;
     font-weight: bolder;
 }
 .mvdetails{
@@ -160,21 +160,21 @@ z-index: 1;
     color: white;
 }
 #tblogo{
-    height: 200px;
+    height: 27vh;
     margin-top: -30px;
-    margin-left: 63px;
+    margin-left: -15px;
     position: absolute;
 }
 .copyright{
     margin-top: 150px;
-    margin-left: 160px;
+    margin-left: 83px;
     position: absolute;
 }
 .bird-box:hover #tblogo{
     transition-duration: .3s;
     filter: invert(100);
     height: 220px;
-    margin-left: 43px;
+    margin-left: -27px;
 }
 .bird-box:hover .copyright{
     color: white;
@@ -220,7 +220,7 @@ img {vertical-align: middle;}
 }
 
 img{
-    height: 425px;
+    height: 365px;
     margin-left: 20px;
     z-index: -1;
     filter: grayscale(100);
