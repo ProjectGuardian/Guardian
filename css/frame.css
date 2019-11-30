@@ -157,3 +157,24 @@ z-index: 1;
     transition-duration: .3s;
     color: white;
 }
+#tblogo{
+    height: 200px;
+    margin-top: -30px;
+    margin-left: 43px;
+    position: absolute;
+}
+.copyright{
+    margin-top: 150px;
+    margin-left: 140px;
+    position: absolute;
+}
+.bird-box:hover #tblogo{
+    transition-duration: .3s;
+    filter: invert(100);
+    height: 220px;
+    margin-left: 23px;
+}
+.bird-box:hover .copyright{
+    color: white;
+    transition-duration: .3s;
+}
