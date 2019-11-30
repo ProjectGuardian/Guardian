@@ -315,3 +315,74 @@ button[type=submit]:hover{
     }
     
 }
+@media screen and (max-width: 425px){
+    #h2_contact{
+        margin-bottom: 40px;
+        padding-left: 34px;
+    }
+    .Contact{
+        position: absolute;
+        top: 400px;
+        left: 120px;
+        font-size: 1.1rem;
+    }
+    .contact-desc h2, .contact-desc h3{
+        position: relative;
+        left: 30px;
+    }
+    .contact-desc h3{
+        font-size: 0.8rem;
+    }
+    .call_us, .address, .email{
+        padding-top: 5px;
+    }
+    .call_us, .call_us img{
+        margin-left: 0px;
+    }
+    .address, .address img{
+        margin-left: 0px;
+    }
+    .email, .email img{
+        margin-left: 0px;
+    }
+    .form{
+        position: absolute;
+        top: 880px;
+        right: 40px;
+     }
+     .form-desc h2{
+        position: absolute;
+        top: -170px;
+    }
+     .userInfo{
+         margin: 5px 8px 20px 0px;
+         width: 335px;
+         height: 30px;
+     }
+     
+     #userMessage{
+         width: 333px;
+         height: 275px;
+     }
+     #submitButton{
+        margin-left: 185px;
+        height: 20px;
+        width: 75px;
+        background-color: orange;
+        border-width: 0px;
+        margin-bottom: 10px;
+    }
+    .map-location {
+        position: absolute;
+        top: 1200px;
+        left: 51px;
+    }
+    iframe {
+        width: 332px;
+        height: 300px;
+    }
+    .footer{
+        position: absolute;
+        top: 94rem;
+    }
+}
