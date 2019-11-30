@@ -20,6 +20,11 @@ body{
   
 }
 
+#blogPage .content img{
+  height: 50vh;
+  width: 100vh;
+}
+
 
 #blogPage .content h2 {
   color: #333;
@@ -175,6 +180,11 @@ body{
   text-align: left;
   }
 
+  #blogPage .content img{
+    height: 50vh;
+    width: 80vh;
+  }
+
   .portfolio-header h1 {
     font-weight: 300;
     margin: 15px;
@@ -208,6 +218,11 @@ body{
     font-size: 6.2rem;
     -webkit-text-stroke: -1px black;
     color: white;
+}
+
+#blogPage .content img{
+  height: 50vh;
+  width: 50vh;
 }
   
    #blogPage .content h2 {

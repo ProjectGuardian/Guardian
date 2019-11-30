@@ -1,10 +1,10 @@
-html{
+html, body{
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
-}
-body{
-    width: 100%;
+    background-color: white;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 .navbar{
     width: 102%;
@@ -25,20 +25,21 @@ body{
 }
 .header table{
     position: absolute;
-    margin-left: 1000px;
-    margin-top: 40px;
+    margin-left: 800px;
+    margin-top: 30px;
     color: black;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
 
 }
 #logo{
-    height: 80px;
+    height: 75px;
     position: absolute;
+    top: 0px;
     margin-left: 20px;
 }
 #logo:hover{
-    height: 100px;
+    height: 90px;
     transition-duration: .3s;
 }
 .header:hover{
@@ -72,11 +73,10 @@ button:hover{
     text-align: center;
     height: 52rem;
     width: 100%;
-    margin-left: -0.5rem;
-    margin-top: -4.1rem;
 }
 .contacts-content-header h1{
-    padding-top: 18rem;
+    margin: 0 0 0 0;
+    padding-top: 14rem;
     color: white;
     font-size: 6rem;
     overflow-x: hidden;
@@ -243,6 +243,74 @@ iframe {
 }
 .footer #icon:hover{
     opacity: 50%;
+}
+@media screen and (max-width: 1300px){
+    .form{
+        position: absolute;
+        top: 975px;
+        right: 70px;
+    }
+}
+@media screen and (max-width: 1260px){
+    .form{
+        position: absolute;
+        top: 975px;
+        right: 40px;
+    }
+}
+@media screen and (max-width: 1225px){
+    .form{
+        position: absolute;
+        top: 975px;
+        right: 90px;
+    }
+    .userInfo{
+        margin: 5px 8px 27px 0px;
+        width: 147px;
+        height: 40px;
+    }
+    #userMessage{
+        width: 450px;
+        height: 275px;
+    }
+    #submitButton{
+        margin-left: 350px;
+        height: 40px;
+        width: 90px;
+        background-color: black;
+        color: white;
+        border-width: 0px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .form{
+        position: absolute;
+        top: 975px;
+        right: 60px;
+    }
+    .form-desc h2{
+        position: relative;
+        font-size: 0.9rem;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+    .userInfo{
+        margin: 5px 8px 27px 0px;
+        width: 147px;
+        height: 40px;
+    }
+    #userMessage{
+        width: 450px;
+        height: 275px;
+    }
+    #submitButton{
+        margin-left: 340px;
+        height: 40px;
+        width: 90px;
+        background-color: black;
+        color: white;
+        border-width: 0px;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -462,6 +530,17 @@ iframe {
         position: absolute;
         top: 950px;
         left: 90px;
+        font-size: 1rem;
+    }
+    .address img{
+        position: absolute;
+        top: 107px;
+        left: -70px;
+    }
+    .email img{
+        position: absolute;
+        top: 213px;
+        left: -70px;
     }
     .form{
         position: absolute;
@@ -523,7 +602,7 @@ iframe {
     }
     .contacts-content-header h1{
         font-size: 4rem;
-        padding-top: 19rem;
+        padding-top: 14rem;
     }
     #h2_contact{
         margin-bottom: 40px;
@@ -531,13 +610,13 @@ iframe {
     }
     .Contact{
         position: absolute;
-        top: 950px;
+        top: 1000px;
         left: 95px;
         font-size: 1rem;
     }
     .form{
         position: absolute;
-        top: 1425px;
+        top: 1475px;
         right: 34px;
      }
      .userInfo{
@@ -571,7 +650,7 @@ iframe {
     }
     .map-location {
         position: absolute;
-        top: 1725px;
+        top: 1775px;
         left: 35px;
     }
     iframe {
@@ -581,7 +660,7 @@ iframe {
     .footer {
         overflow-x: hidden;
         position: absolute;
-        top: 2000px;
+        top: 2050px;
         width: 99.13%;
         margin-left: -1rem;
         text-align: center;
