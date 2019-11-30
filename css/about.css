@@ -48,6 +48,13 @@ body {
     font-size: 1.5rem;
     font-family: sans-serif;
   }
+  h2 {
+    padding: 20px;
+    margin: 0px;
+    font-size: 8rem;
+    text-align: center;
+    font-family: sans-serif;
+ }
   .team-main-grid {
     background-color: white;
     text-align: center;
@@ -99,6 +106,16 @@ body {
     font-size: 1.5rem;
     margin-left: 40%;
 }
+image {
+    filter: grayscale(100%);
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
+    position: center;
+    display: block;
+    width: 70%;
+    height: 67%;
+  }
   .footer{
     color:black;
     text-align: center;
