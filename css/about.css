@@ -200,7 +200,9 @@ footer h3 {
   text-decoration: none;
   border-radius: 30%;
 }
-
+.team-grid1 .adjustSpace{
+  font-size:20px;
+}
 .team-grid2 .adjustSpace{
   font-size:20px;
 }
@@ -212,7 +214,12 @@ footer h3 {
 .team-grid4 .adjustSpace{
   font-size:20px;
 }
-
+.team-grid5 .adjustSpace{
+  font-size:20px;
+}
+.team-grid6 .adjustSpace{
+  font-size:20px;
+}
 
 
 
