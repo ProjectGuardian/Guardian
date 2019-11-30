@@ -248,7 +248,23 @@ footer h3 {
       position: sticky;
       margin: 120px;
   }
-
+  .who h1 {
+    margin-top: 50px;
+    margin-bottom: -50px;
+    background-color:white;
+    font-size: 3rem;
+    text-align: center;
+    font-family: sans-serif;
+    position: sticky;
+  }
+  .who p {
+    margin: 5px;
+    padding: 50px;
+    background-color:white;
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+  }
   h2 {
     padding: 20px;
     margin: 0px;
@@ -300,4 +316,51 @@ footer h3 {
 }
 .team-grid6:hover .overlay {
 opacity: 1;
+}
+.link {
+  color: gray;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.icon {
+  padding: 30px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.iconFB{
+  width: 40%;
+}
+.icontwitter {
+  width: 40%;
+}
+.iconig{
+  width: 40%;
+}
+.icon:hover {
+    opacity: 0.7;
+}
+.logoFooter {
+  float: center; 
+  padding: 0px;
+  height: 200%;
+  width: 150px; 
+  margin-right: 30px;
+  text-decoration: none;
+  border-radius: 30%;
+}
+footer h3 {
+  text-align: center;
+  padding:0px;
+  padding-right: 25px;
+}
 }
