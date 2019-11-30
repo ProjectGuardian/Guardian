@@ -1,8 +1,12 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
   line-height: 1.6em;
+  overflow-x: hidden;
 }
 
 #more {display: none;}
