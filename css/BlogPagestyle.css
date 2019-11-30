@@ -9,6 +9,67 @@ body{
   overflow-x: hidden;
 }
 
+.navbar{
+  width: 102%;
+  height: 80px;
+  position: absolute;
+  margin: -8px;
+}
+.header{
+  width: 102%;
+  margin: -8px;
+  display: none;
+  height: 80px;
+  z-index: -1;
+}
+.icon{
+  height: 35px;
+  width: 35px;
+}
+.header table{
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 30px;
+  color: black;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+}
+#logo{
+  height: 75px;
+  position: absolute;
+  top: 0px;
+  margin-left: -700px;
+}
+#logo:hover{
+  height: 90px;
+  transition-duration: .3s;
+}
+.header:hover{
+  background-color:rgba(255, 255, 255, 0.637);
+}
+.navbar:hover .header{
+  display: block;
+  transition-duration: .5s;
+}
+button{
+  height: 30px;
+  width: 120px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+.icon:hover{
+  width: 40px;
+  height: 38px;
+  filter: invert(100);
+  transition-duration: .3s;
+}
+button:hover{
+  background-color: black;
+  height: 40px;
+  transition-duration: .3s;
+}
+
 #more {display: none;}
 
 #blogPage .content{
@@ -164,6 +225,18 @@ body{
 }
 
 @media screen and (max-width: 1024px){
+  .navbar{
+    width: 100%;
+}
+.header table{
+    margin-left: 675px;
+}
+button{
+    width: 75px;
+}
+#logo{
+  margin-left: -520px;
+}
 .portfolio-hero {
   background: url(../img/background3.jpg) no-repeat center center fixed;
   height: 100vh;
@@ -203,6 +276,18 @@ body{
 }
 
 @media screen and (max-width: 768px){
+  .navbar{
+    width: 100%;
+  } 
+  .header table{
+    margin-left: 500px;
+  }
+  button{
+    width: 50px;
+  }
+  #logo{
+  margin-left: -390px;
+  }
   .portfolio-hero {
     background: url(../img/background3.jpg) no-repeat center center fixed;
     height: 100vh;
@@ -250,6 +335,18 @@ body{
 }
 
 @media screen and (max-width: 425px){
+  .navbar{
+    width: 100%;
+  } 
+  .header table{
+    margin-left: 210px;
+  }
+  button{
+    width: 40px;
+  }
+  #logo{
+  margin-left: -210px;
+  }
   .portfolio-hero {
     background: url(../img/background3.jpg) no-repeat center center fixed;
     height: 100vh;
@@ -292,9 +389,34 @@ body{
 }
 
 @media screen and (max-width: 375px){
-
+  .navbar{
+    width: 100%;
+  } 
+  .header table{
+    margin-left: 150px;
+  }
+  button{
+    width: 40px;
+  }
+  #logo{
+  margin-left: -190px;
+  }
 }
 
 @media screen and (max-width: 320px){
-
+  .navbar{
+    width: 100%;
+  } 
+  .header table{
+    margin-left: 110px;
+  }
+  #logo{
+    height: 70px;
+  }
+  button{
+    width: 40px;
+  }
+  #logo{
+  margin-left: -160px;
+  }
 }
