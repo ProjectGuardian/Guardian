@@ -289,6 +289,10 @@ footer h3 {
       margin: 90px;
       font-size: 5.5rem;
      }
+     .about-profile h2 {
+      font-size: 2rem;
+      margin: 2px;
+    }
      .who h1 {
        font-size: 2.5rem;
      }
@@ -308,15 +312,41 @@ footer h3 {
     h2 {
       font-size: 2rem;
     }
-  .team-main-grid h1{
-    font-size: 1.2rem;
+   .team-main-grid h1{
+      font-size: 1.2rem;
+    }
+    .team-grid1 img, .team-grid2 img, .team-grid3 img, .team-grid4 img, .team-grid5 img, .team-grid6 img{
+      height: 55%;
+      position: sticky;
+    }
+    .overlay {
+      height: 55%;
   }
-  .team-grid1 img, .team-grid2 img, .team-grid3 img, .team-grid4 img, .team-grid5 img, .team-grid6 img{
-    height: 60%;
-    position: sticky;
-  }
-  .overlay {
-    height: 60%;
+  @media screen and (max-width: 425px){
+    .aboutPage {
+      background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
+      height: 80vh;
+      padding: 0px;
+      background-size: cover;
+      text-align: center;
+     }
+     .about-profile h1 {
+      text-align: center;
+      font-weight: 300;
+      margin: 90px;
+      font-size: 4rem;
+     }
+     .about-profile h2 {
+      font-size: 2rem;
+      margin: 2px;
+    }
+     .who h1 {
+       padding: 0px;
+       font-size: 2rem;
+     }
+     .who p {
+      font-size: 1rem;
+    }
   }
 }
 
