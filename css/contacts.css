@@ -233,3 +233,85 @@ button[type=submit]:hover{
         top: 83rem;
     }
 }
+@media screen and (max-width: 768px){
+    #h2_contact{
+        margin-bottom: 40px;
+        padding-left: 10px;
+    }
+    .Contact{
+        position: absolute;
+        top: 400px;
+        left: 300px;
+    }
+    .contact-desc h2, .contact-desc h3{
+        position: relative;
+        left: 80px;
+    }
+    .call_us, .call_us img{
+        margin-left: -100px;
+    }
+    .address, .address img{
+        margin-left: -100px;
+    }
+    .email, .email img{
+        margin-left: -100px;
+    }
+    .form{
+        position: absolute;
+        top: 875px;
+        right: 145px;
+     }
+     .form-desc h2{
+         position: absolute;
+         top: -150px;
+     }
+     
+     .userInfo{
+         position: relative;
+         right: 6px;
+         width: 495px;
+         height: 30px;
+     }
+     
+     #userMessage{
+         width: 495px;
+         height: 200px;
+     }
+     #submitButton{
+        position: relative;
+        left: 70px;
+        height: 20px;
+        width: 75px;
+        background-color: orange;
+        border-width: 0px;
+    }
+    .username_label{
+        position: absolute;
+        top: -125px;
+        right: -8px;
+    }
+    .email_label{
+        position: absolute;
+        top: -85px;
+        right: -8px;
+    }
+    .phone_label{
+        position: absolute;
+        top: -45px;
+        right: -8px;
+    }
+    .map-location {
+        position: absolute;
+        top: 1150px;
+        left: 130px;
+    }
+    iframe {
+        width: 505px;
+        height: 300px;
+    }
+    .footer{
+        position: absolute;
+        top: 92rem;
+    }
+    
+}
