@@ -20,3 +20,19 @@ body{
     color: white;
     font-size: 6rem;
 }
+.aboutpage{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.contact-desc h2, .contact-desc h3{
+    position: relative;
+    left: 150px;
+}
+.contact-desc h2{
+    color: #777777;
+    font-size: 2rem;
+}
+.contact-desc h3{
+    font-size: 1.2rem;
+}
