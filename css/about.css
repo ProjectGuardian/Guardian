@@ -330,8 +330,6 @@ footer h3 {
   @media screen and (max-width: 425px){
     .aboutPage {
       background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
-      height: 80vh;
-      padding: 0px;
       height: 106vh;
       background-size: cover;
       text-align: center;
@@ -449,11 +447,6 @@ footer h3 {
   }
 
   
-
-
-
-
-
 
 
 
