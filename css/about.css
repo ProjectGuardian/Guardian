@@ -40,16 +40,16 @@ body {
     padding: 18px;
     width: 100%;
     }
-    footer h3 {
-      text-align: center;
+footer h3 {
+    text-align: center;
     }
-    .logoFooter {
-      float: center; 
-      padding: 0px;
-      height: 200%;
-      width: 300px; 
-      text-decoration: none;
-      border-radius: 30%;
+.logoFooter {
+    float: center; 
+    padding: 0px;
+    height: 200%;
+    width: 300px; 
+    text-decoration: none;
+    border-radius: 30%;
   }
   .who h1 {
     margin-top: 50px;
@@ -66,6 +66,99 @@ body {
     text-align: justify;
     font-size: 1.5rem;
     font-family: sans-serif;
+  }
+  .team-main-grid {
+    background-color: white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-style: hidden;
+    border-width: 1000px;
+}
+.team-grid1 {
+    position: relative;
+    width: 70%;
+    margin:10px;
+}
+.team-grid2 {
+    position: relative;
+    width: 70%;
+    margin:10px;
+}
+.team-grid3 {
+    position: relative;
+    width: 70%;
+    margin:10px;
+}
+.team-grid4 {
+    position: relative;
+    width: 70%;
+    margin:10px;
+}
+.team-grid5 {
+    position: relative;
+    width: 70%;
+    margin:10px;
+}
+.team-grid6 {
+  position: relative;
+  width: 70%;
+  margin:10px;
+}
+.team-main-grid h1{
+  text-align: center;
+  color: darkgray;
+  font-size: 1.5rem;
+  margin-left: 35%;
+}
+.team-main-grid h2 {
+    background-color: black;
+    text-align: center;
+    color: gray;
+    font-size: 1.5rem;
+    margin-left: 40%;
+}
+.image {
+    filter: grayscale(100%);
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
+    position: center;
+    display: block;
+    width: 70%;
+    height: 67%;
+  }
+  .link {
+    color: gray;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .icon {
+    padding: 30px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  .iconFB{
+    width: 40%;
+  }
+  .icontwitter {
+    width: 40%;
+  }
+  .iconig{
+    width: 40%;
+  }
+  .icon:hover {
+      opacity: 0.7;
   }
   .overlay {
     position: absolute;
