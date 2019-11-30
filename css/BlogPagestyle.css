@@ -28,7 +28,7 @@ body{
 }
 .header table{
   position: absolute;
-  margin-left: 690px;
+  margin-left: 885px;
   margin-top: 30px;
   color: black;
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -229,7 +229,7 @@ button:hover{
     width: 100%;
 }
 .header table{
-    margin-left: 580px;
+    margin-left: 665px;
 }
 button{
     width: 75px;
