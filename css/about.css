@@ -19,9 +19,9 @@ body {
   color:white;
 }
 .about-profile h1 {
+  padding-top: 100px;
   font-weight: 300;
   padding: 0.1px;
-  margin: 150px;
   font-size: 8rem;
   color: white;
 }
@@ -227,14 +227,15 @@ footer h3 {
 @media screen and (max-width: 1024px){
   .aboutPage {
     background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
-    height: 110vh;
+    height: 116vh;
     padding: 0px;
-    background-size: 150%;
+    background-size: cover;
   }
    .about-profile h1 {
+    margin-top: -67px;
+    padding-top: 220px;
     text-align: center;
     font-weight: 300;
-    margin: 90px;
     font-size: 6.2rem;
    }
   .about-profile h2 {
@@ -250,15 +251,18 @@ footer h3 {
   h2 {
     font-size: 2.5rem;
   }
+  .team-main-grid h1{
+    font-size: 1.2rem;
+  }
   .team-main-grid {
     display: grid;
-    grid-template-columns:none;
+    grid-template-columns:repeat(3, 1fr);
   }
   .team-grid1 img, .team-grid2 img, .team-grid3 img, .team-grid4 img, .team-grid5 img, .team-grid6 img{
-    height: 55%;
+    height: 50%;
   }
   .overlay {
-    height: 55%;
+    height: 50%;
   }
   .logoFooter {
     float: center; 
