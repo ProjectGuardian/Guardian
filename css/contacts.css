@@ -252,6 +252,12 @@ iframe {
     }
 }
 @media screen and (max-width: 1260px){
+    .navbar{
+        width: 100%;
+    }
+    .header table{
+        margin-left: 750px;
+    }
     .form{
         position: absolute;
         top: 975px;
@@ -259,6 +265,12 @@ iframe {
     }
 }
 @media screen and (max-width: 1225px){
+    .navbar{
+        width: 100%;
+    }
+    .header table{
+        margin-left: 725px;
+    }
     .form{
         position: absolute;
         top: 975px;
@@ -283,6 +295,16 @@ iframe {
     }
 }
 @media screen and (max-width: 1100px){
+    .navbar{
+        width: 100%;
+    }
+    .header table{
+        margin-left: 760px;
+    }
+    button{
+        width: 75px;
+    }
+    
     .form{
         position: absolute;
         top: 975px;
@@ -314,7 +336,15 @@ iframe {
 }
 
 @media screen and (max-width: 1024px){
-    
+    .navbar{
+        width: 100%;
+    }
+    .header table{
+        margin-left: 675px;
+    }
+    button{
+        width: 75px;
+    }
     .Contact{
         position: absolute;
         top: 1000px;
@@ -361,6 +391,15 @@ iframe {
     }
 }
 @media screen and (max-width: 768px){
+    .navbar{
+        width: 100%;
+    }
+    .header table{
+        margin-left: 560px;
+    }
+    button{
+        width: 40px;
+    }
     #h2_contact{
         margin-bottom: 40px;
         padding-left: 10px;
@@ -444,6 +483,15 @@ iframe {
     
 }
 @media screen and (max-width: 425px){
+    .navbar{
+        width: 102%;
+    }
+    .header table{
+        margin-left: 220px;
+    }
+    button{
+        width: 40px;
+    }
     #h2_contact{
         margin-bottom: 40px;
         padding-left: 34px;
@@ -516,6 +564,12 @@ iframe {
     }
 }
 @media screen and (max-width: 375px){
+    .header table{
+        margin-left: 175px;
+    }
+    button{
+        width: 40px;
+    }
     .contacts-content-header h1{
         font-size: 5rem;
     }
@@ -597,6 +651,19 @@ iframe {
     }
 }
 @media screen and (max-width: 320px){
+    #logo{
+        height: 70px;
+        margin-left: 10px;
+    }
+    .navbar{
+        width: 104%;
+    }
+    .header table{
+        margin-left: 120px;
+    }
+    button{
+        width: 40px;
+    }
     .contact-desc h3{
         font-size: 0.65rem;
     }
