@@ -307,7 +307,20 @@ footer h3 {
     z-index: -1;
   }
   .header table{
-    margin-left: 645px;
+    margin-left: 665px;
+  }
+  button{
+    height: 30px;
+    width: 75px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+  }
+  #logo{
+    height: 75px;
+    position: absolute;
+    top: 0px;
+    margin-left: 10px;
   }
   .aboutPage {
     background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
@@ -376,7 +389,14 @@ footer h3 {
       z-index: -1;
     }
     .header table{
-      margin-left: 382px;
+      margin-left: 500px;
+    }
+    button{
+      height: 30px;
+      width: 50px;
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
     }
     #logo{
       height: 75px;
@@ -448,7 +468,14 @@ footer h3 {
       z-index: -1;
     }
     .header table{
-      margin-left: 180px;
+      margin-left: 210px;
+    }
+    button{
+      height: 30px;
+      width: 40px;
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
     }
     #logo{
       height: 75px;
@@ -533,6 +560,13 @@ footer h3 {
     .header table{
       margin-left: 150px;
     }
+    button{
+      height: 30px;
+      width: 40px;
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
+    }
     #logo{
       height: 75px;
       position: absolute;
@@ -593,7 +627,7 @@ footer h3 {
       z-index: -1;
     }
     .header table{
-      margin-left: 10 0px;
+      margin-left: 110px;
     }
     #logo{
       height: 67px;
@@ -603,7 +637,7 @@ footer h3 {
     }
     button{
       height: 40px;
-      width: 43px;
+      width: 40px;
       background-color: transparent;
       cursor: pointer;
       border: none;
