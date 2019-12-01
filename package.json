@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://github.com/ProjectGuardian/Guardian#readme",
+  "homepage": "https://github.io/ProjectGuardian/Guardian",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "gh-pages -d dist"
@@ -12,12 +12,12 @@
     "type": "git",
     "url": "git+https://github.com/ProjectGuardian/Guardian.git"
   },
-  "author": "Team Guardian",
+  "author": "ProjectGuardian",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ProjectGuardian/Guardian/issues"
   },
-  
+
   "dependencies": {
     "gh-pages": "^2.1.1"
   }
