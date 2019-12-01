@@ -675,17 +675,30 @@ video{
     }
     .header table{
         position: absolute;
-        margin-left: 255px;
-        margin-top: 40px;
+        margin-left: 125px;
+        margin-top: 20px;
         color: black;
         font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 20px;
     
     }
+    .header{
+        height: 60px;
+    }
+    .icon{
+        height: 20px;
+        width: 20px;
+    }
+    button{
+        width: 60px;
+    }
+    #logo{
+        height: 50px;
+    }
     .left-gallery{
         position: absolute;
         margin-top: 65px;
-        margin-left: -20px;
+        margin-left: 0px;
         z-index: 1;
         }
         .left-imgs{
@@ -698,7 +711,7 @@ video{
             width: 300px;
             background-color: gray;
             margin-top: 65px;
-            margin-left: 50px;
+            margin-left: 70px;
             z-index: 1;
             }
             img{
@@ -713,7 +726,7 @@ video{
             height: 150px;
             width: 150px;
             margin-top: 408px;
-            margin-left: 30px;
+            margin-left: 50px;
             z-index: 1;
             }
             .second-box{
@@ -722,7 +735,7 @@ video{
             height: 150px;
             width: 150px;
             margin-top: 408px;
-            margin-left: 200px;
+            margin-left: 220px;
             z-index: 1;
             }
             .third-box{
@@ -730,8 +743,8 @@ video{
             background-color: gray;
             height: 150px;
             width: 340px;
-            margin-top: 408px;
-            margin-left: 410px;
+            margin-top: 575px;
+            margin-left: 40px;
             z-index: 1;
             }
             .date{
@@ -742,28 +755,136 @@ video{
                 font-family: dimis;
                 font-size: 25px;
             }
+            .mission-box{
+                position: absolute;
+                background-color: gray;
+                width: 160px;
+                height: 105px;
+                margin-top: 746px;
+                margin-left: 40px;
+                z-index: 1;
+                }
+                .vision-box{
+                    position: absolute;
+                    background-color: gray;
+                    width: 160px;
+                    height: 125px;
+                    margin-top:746px;
+                    margin-left: 220px;
+                    z-index: 1;
+                    }
+                    
 }
 @media screen and (max-width: 375px){
     body{
-        width: 375px;
+        width: 425px;
     }
     .navbar{
-        width: 375px;
+        width: 425px;
         height: 40px;
         position: absolute;
         margin: -8px;
     }
     .header table{
         position: absolute;
-        margin-left: 255px;
-        margin-top: 40px;
+        margin-left: 125px;
+        margin-top: 20px;
         color: black;
         font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 20px;
+    
     }
-    iframe{
-        margin: -8px;
-        width: 375px;
-      
+    .header{
+        height: 60px;
+    }
+    .icon{
+        height: 20px;
+        width: 20px;
+    }
+    button{
+        width: 60px;
+    }
+    #logo{
+        height: 50px;
+    }
+    .left-gallery{
+        position: absolute;
+        margin-top: 65px;
+        margin-left: 0px;
+        z-index: 1;
+        }
+        .left-imgs{
+        height: 60px;
+        filter: grayscale(100);
+        }
+        .slideshow{
+            position: absolute;
+            height: 125px;
+            width: 300px;
+            background-color: gray;
+            margin-top: 65px;
+            margin-left: 70px;
+            z-index: 1;
+            }
+            img{
+                height: 325px;
+                margin-left: 20px;
+                z-index: -1;
+                filter: grayscale(100);
+            }
+            .first-box{
+            position: absolute;
+            background-color: gray;
+            height: 150px;
+            width: 150px;
+            margin-top: 408px;
+            margin-left: 50px;
+            z-index: 1;
+            }
+            .second-box{
+            position: absolute;
+            background-color: gray;
+            height: 150px;
+            width: 150px;
+            margin-top: 408px;
+            margin-left: 220px;
+            z-index: 1;
+            }
+            .third-box{
+            position: absolute;
+            background-color: gray;
+            height: 150px;
+            width: 340px;
+            margin-top: 575px;
+            margin-left: 40px;
+            z-index: 1;
+            }
+            .date{
+                font-size: 20px;
+                text-align: center;
+            }
+            .smallbox{
+                font-family: dimis;
+                font-size: 25px;
+            }
+            .mission-box{
+                position: absolute;
+                background-color: gray;
+                width: 160px;
+                height: 105px;
+                margin-top: 746px;
+                margin-left: 40px;
+                z-index: 1;
+                }
+                .vision-box{
+                    position: absolute;
+                    background-color: gray;
+                    width: 160px;
+                    height: 125px;
+                    margin-top:746px;
+                    margin-left: 220px;
+                    z-index: 1;
+                    }
+                    
 }
 }

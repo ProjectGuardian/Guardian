@@ -307,7 +307,20 @@ footer h3 {
     z-index: -1;
   }
   .header table{
-    margin-left: 645px;
+    margin-left: 665px;
+  }
+  button{
+    height: 30px;
+    width: 75px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+  }
+  #logo{
+    height: 75px;
+    position: absolute;
+    top: 0px;
+    margin-left: 10px;
   }
   .aboutPage {
     background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
@@ -353,7 +366,6 @@ footer h3 {
   }
   .logoFooter {
     float: center; 
-    padding-right: 25px;
     height: 100%;
     width: 200px; 
   }
@@ -377,7 +389,14 @@ footer h3 {
       z-index: -1;
     }
     .header table{
-      margin-left: 382px;
+      margin-left: 500px;
+    }
+    button{
+      height: 30px;
+      width: 50px;
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
     }
     #logo{
       height: 75px;
@@ -449,7 +468,14 @@ footer h3 {
       z-index: -1;
     }
     .header table{
-      margin-left: 180px;
+      margin-left: 210px;
+    }
+    button{
+      height: 30px;
+      width: 40px;
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
     }
     #logo{
       height: 75px;
@@ -534,6 +560,13 @@ footer h3 {
     .header table{
       margin-left: 150px;
     }
+    button{
+      height: 30px;
+      width: 40px;
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
+    }
     #logo{
       height: 75px;
       position: absolute;
@@ -549,7 +582,7 @@ footer h3 {
     }
     .aboutPage {
       background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
-      height: 102vh;
+      height: 105vh;
       background-size: cover;
       text-align: justify;
      }
@@ -594,7 +627,7 @@ footer h3 {
       z-index: -1;
     }
     .header table{
-      margin-left: 10 0px;
+      margin-left: 110px;
     }
     #logo{
       height: 67px;
@@ -604,14 +637,14 @@ footer h3 {
     }
     button{
       height: 40px;
-      width: 43px;
+      width: 40px;
       background-color: transparent;
       cursor: pointer;
       border: none;
     }
     .aboutPage {
       background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
-      height: 100vh;
+      height: 105vh;
       padding: 0px;
       background-size: cover;
       text-align: justify;
@@ -640,7 +673,7 @@ footer h3 {
       font-size: 1rem;
       }
     .team-grid1 img, .team-grid2 img, .team-grid3 img, .team-grid4 img, .team-grid5 img, .team-grid6 img{
-      height: 65%;
+      height: 58%;
     }
     .overlay {
       height: 65%;

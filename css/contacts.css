@@ -13,7 +13,7 @@ html, body{
     margin: -8px;
 }
 .header{
-    width: 102%;
+    width: 104%;
     margin: -8px;
     display: none;
     height: 80px;
@@ -395,10 +395,10 @@ iframe {
         width: 100%;
     }
     .header table{
-        margin-left: 560px;
+        margin-left: 500px;
     }
     button{
-        width: 40px;
+        width: 50px;
     }
     #h2_contact{
         margin-bottom: 40px;
@@ -482,12 +482,12 @@ iframe {
     }
     
 }
-@media screen and (max-width: 425px){
+@media screen and (max-width: 426px){
     .navbar{
-        width: 102%;
+        width: 100%;
     }
     .header table{
-        margin-left: 220px;
+        margin-left: 210px;
     }
     button{
         width: 40px;
