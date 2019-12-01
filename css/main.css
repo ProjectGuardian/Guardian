@@ -8,61 +8,63 @@ body{
     position: absolute;
     margin: -8px;
     z-index: 1;
-  }
-  .header{
+}
+.header{
     width: 102%;
     margin: -8px;
     display: none;
     height: 80px;
     z-index: -1;
-  }
-  .icon{
+}
+.icon{
     height: 35px;
     width: 35px;
-  }
-  .header table{
+}
+.header table{
     position: absolute;
-    margin-left: 885px;
+    margin-left: 800px;
     margin-top: 30px;
     color: black;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
-  }
-  #logo{
+
+}
+#logo{
     height: 75px;
     position: absolute;
     top: 0px;
+    margin-left: 20px;
     z-index: 1;
-  }
-  #logo:hover{
+}
+#logo:hover{
     height: 90px;
     transition-duration: .3s;
-  }
-  .header:hover{
+}
+.header:hover{
     background-color:rgba(255, 255, 255, 0.637);
-  }
-  .navbar:hover .header{
+}
+.navbar:hover .header{
     display: block;
     transition-duration: .5s;
-  }
-  button{
+}
+button{
     height: 30px;
     width: 120px;
     background-color: transparent;
     cursor: pointer;
     border: none;
-  }
-  .icon:hover{
+}
+.icon:hover{
     width: 40px;
     height: 38px;
     filter: invert(100);
     transition-duration: .3s;
-  }
-  button:hover{
+}
+button:hover{
     background-color: black;
     height: 40px;
     transition-duration: .3s;
-  }
+}
 video{
     margin: -8px;
     width: 104%;
@@ -661,7 +663,7 @@ video{
                          z-index: -1;
                         }
 }
-@media screen and (max-width: 425px){
+@media screen and (max-width: 426px){
     body{
         width: 425px;
     }
@@ -680,6 +682,66 @@ video{
         font-size: 20px;
     
     }
+    .left-gallery{
+        position: absolute;
+        margin-top: 65px;
+        margin-left: -20px;
+        z-index: 1;
+        }
+        .left-imgs{
+        height: 60px;
+        filter: grayscale(100);
+        }
+        .slideshow{
+            position: absolute;
+            height: 125px;
+            width: 300px;
+            background-color: gray;
+            margin-top: 65px;
+            margin-left: 50px;
+            z-index: 1;
+            }
+            img{
+                height: 325px;
+                margin-left: 20px;
+                z-index: -1;
+                filter: grayscale(100);
+            }
+            .first-box{
+            position: absolute;
+            background-color: gray;
+            height: 150px;
+            width: 150px;
+            margin-top: 408px;
+            margin-left: 30px;
+            z-index: 1;
+            }
+            .second-box{
+            position: absolute;
+            background-color: gray;
+            height: 150px;
+            width: 150px;
+            margin-top: 408px;
+            margin-left: 200px;
+            z-index: 1;
+            }
+            .third-box{
+            position: absolute;
+            background-color: gray;
+            height: 150px;
+            width: 340px;
+            margin-top: 408px;
+            margin-left: 410px;
+            z-index: 1;
+            }
+            .date{
+                font-size: 20px;
+                text-align: center;
+            }
+            .smallbox{
+                font-family: dimis;
+                font-size: 25px;
+            }
 }
 @media screen and (max-width: 375px){
     body{
