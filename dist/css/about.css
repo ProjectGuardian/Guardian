@@ -1,0 +1,658 @@
+html {
+  margin: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  
+}
+body {
+  overflow-x: hidden;
+  margin: 0;
+  top: 0;
+  right: 0;
+}
+.navbar{
+  width: 102%;
+  height: 80px;
+  position: absolute;
+  margin: -8px;
+  z-index: 1;
+}
+.header{
+  width: 102%;
+  margin: -8px;
+  display: none;
+  height: 80px;
+  z-index: -1;
+}
+.icon1{
+  height: 35px;
+  width: 35px;
+}
+.header table{
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 30px;
+  color: black;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+}
+#logo{
+  height: 75px;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+}
+#logo:hover{
+  height: 90px;
+  transition-duration: .3s;
+}
+.header:hover{
+  background-color:rgba(255, 255, 255, 0.637);
+}
+.navbar:hover .header{
+  display: block;
+  transition-duration: .5s;
+}
+button{
+  height: 30px;
+  width: 120px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+.icon1:hover{
+  width: 40px;
+  height: 38px;
+  filter: invert(100);
+  transition-duration: .3s;
+}
+button:hover{
+  background-color: black;
+  height: 40px;
+  transition-duration: .3s;
+}
+.aboutPage {
+  background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
+  height: 100vh;
+  padding: 1px;
+  background-size: 100%;
+  text-align: center;
+  color:white;
+}
+.about-profile h1 {
+  padding-top: 100px;
+  font-weight: 300;
+  padding: 118px;
+  font-size: 8rem;
+  color: white;
+  overflow-x: hidden;
+}
+.about-profile h2 {
+  font-weight: 300;
+  padding: 0.1px;
+  margin: -100px;
+  font-size: 4rem;
+  color: white;
+  overflow-x: hidden;
+}
+.who h1 {
+  margin-top: 4rem;
+  margin-bottom: -50px;
+  background-color:white;
+  font-size: 8rem;
+  text-align: center;
+  font-family: sans-serif;
+  position: sticky;
+}
+
+.who p {
+  margin: 5px;
+  padding: 50px;
+  background-color:white;
+  text-align: justify;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  margin-top: 10px;  
+}
+h2 {
+  padding: 20px;
+  margin: 0px;
+  font-size: 6rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+.team-main-grid {
+  background-color: white;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-style: hidden;
+  border-width: 1000px;
+}
+.team-grid1 {
+  position: relative;
+  width: 70%;
+  margin:10px;
+}
+.team-grid1 img, .team-grid2 img, .team-grid3 img, .team-grid4 img, .team-grid5 img, .team-grid6 img{
+  height: 60%;
+}
+.team-grid2 {
+  position: relative;
+  width: 70%;
+  margin:10px;
+}
+.team-grid3 {
+  position: relative;
+  width: 70%;
+  margin:10px;
+}
+.team-grid4 {
+  position: relative;
+  width: 70%;
+  margin:10px;
+}
+.team-grid5 {
+  position: relative;
+  width: 70%;
+  margin:10px;
+}
+.team-grid6 {
+position: relative;
+width: 70%;
+margin:10px;
+}
+.team-main-grid h1{
+text-align: center;
+color: darkgray;
+font-size: 1.5rem;
+margin-left: 35%;
+}
+.team-main-grid h2 {
+  background-color: black;
+  text-align: center;
+  color: gray;
+  font-size: 1.5rem;
+  margin-left: 40%;
+  margin-bottom:20%;/*margin test*/
+}
+.image {
+  filter: grayscale(100%);
+  display: block;
+  margin-left: 35%;
+  margin-right: 35%;
+  position: sticky;
+  display: block;
+  width: 70%;
+  height: 70%;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60%;
+  width: 70%;
+  margin-left: 35%;
+  margin-right: 35%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: whitesmoke;
+  margin-bottom:-8px;
+}
+.team-grid1:hover .overlay{
+  opacity: 1;
+}
+.team-grid2:hover .overlay {
+  opacity: 1;
+}
+.team-grid3:hover .overlay {
+  opacity: 1;
+}.team-grid4:hover .overlay {
+  opacity: 1;
+}.team-grid5:hover .overlay {
+  opacity: 1;
+}
+.team-grid6:hover .overlay {
+opacity: 1;
+}
+.link {
+  color: gray;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.icon {
+  padding: 30px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+.iconFB{
+  width: 40%;
+}
+.icontwitter {
+  width: 40%;
+}
+.iconig{
+  width: 40%;
+}
+.icon:hover {
+    opacity: 0.7;  
+}
+.footer{
+color:black;
+text-align: center;
+background-color: white;
+margin: 0px;
+width: 100%;
+overflow-x: hidden;
+}
+footer h3 {
+  text-align: center;
+}
+.logoFooter {
+  float: center; 
+  padding: 0px;
+  height: 200%;
+  width: 300px; 
+  text-decoration: none;
+  border-radius: 30%;
+}
+.team-grid1 .adjustSpace{
+  font-size:20px;
+}
+.team-grid2 .adjustSpace{
+  font-size:20px;
+}
+
+.team-grid3 .adjustSpace{
+  font-size:20px;
+}
+
+.team-grid4 .adjustSpace{
+  font-size:20px;
+}
+.team-grid5 .adjustSpace{
+  font-size:20px;
+}
+.team-grid6 .adjustSpace{
+  font-size:20px;
+}
+
+/* MOBILE RESPONSIVE*/
+@media screen and (max-width: 1024px){
+  .navbar{
+    width: 102%;
+    height: 80px;
+    position: absolute;
+    margin: -8px;
+    overflow-x: hidden;
+  }
+  .header{
+    width: 102%;
+    margin: -8px;
+    display: none;
+    height: 80px;
+    z-index: -1;
+  }
+  .header table{
+    margin-left: 645px;
+  }
+  .aboutPage {
+    background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
+    height: 116vh;
+    padding: 0px;
+    background-size: cover;
+  }
+   .about-profile h1 {
+    margin-top: 0px;
+    padding-top: 190px;
+    text-align: center;
+    margin-bottom: -50px;
+    font-weight: 300;
+    font-size: 6.2rem;
+   }
+  .about-profile h2 {
+    font-size: 2rem;
+    margin: 10px;
+  }
+  .who h1 {
+    padding-top: 35px;
+     font-size: 3rem;
+  }
+   .who p {
+    font-size: 1.3rem;
+   margin-top: 10px;  
+    }
+  h2 {
+    font-size: 2.5rem;
+  }
+  .team-main-grid h1{
+    font-size: 1.2rem;
+  }
+  .team-main-grid {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+  }
+  .team-grid1 img, .team-grid2 img, .team-grid3 img, .team-grid4 img, .team-grid5 img, .team-grid6 img{
+    height: 50%;
+  }
+  .overlay {
+    height: 50%;
+  }
+  .logoFooter {
+    float: center; 
+    padding-right: 25px;
+    height: 100%;
+    width: 200px; 
+  }
+  footer h3 {
+    padding-right: 25px;
+  }
+}
+
+  @media screen and (max-width: 768px){
+    .navbar{
+      width: 102%;
+      height: 80px;
+      position: absolute;
+      margin: 7px;
+    }
+    .header{
+      width: 102%;
+      margin: -8px;
+      display: none;
+      height: 80px;
+      z-index: -1;
+    }
+    .header table{
+      margin-left: 382px;
+    }
+    #logo{
+      height: 75px;
+      position: absolute;
+      top: 0px;
+      margin-left: 10px;
+    }
+    .aboutPage {
+      background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
+      height: 105vh;
+      background-size: cover;
+      text-align: center;
+     } 
+     .about-profile h1 {
+      text-align: center;
+      font-weight: 300;
+      font-size: 5.5rem;
+      margin-top: -20px;
+     }
+     .about-profile h2 {
+      font-size: 2rem;
+      margin: 2px;
+    }
+    .who h1 {
+      padding-top: 35px;
+       font-size: 2.5rem;
+    }
+     .who p {
+      font-size: 1.5rem;
+     margin-top: 10px;  
+      }
+     .team-main-grid h1{
+      font-size: 1.2rem;
+    }
+    .team-main-grid h2 {
+      font-size: 1em;
+    }
+    .team-main-grid {
+      display: grid;
+      grid-template-columns:repeat(2, 1fr);
+    }
+    h2 {
+      font-size: 2rem;
+    }
+   .team-main-grid h1{
+      font-size: 1.2rem;
+    }
+    .team-grid1 img, .team-grid2 img, .team-grid3 img, .team-grid4 img, .team-grid5 img, .team-grid6 img{
+      height: 55%;
+      position: sticky;
+    }
+    .overlay {
+      height: 55%;
+  }
+  } 
+
+  @media screen and (max-width: 426px){
+    .navbar{
+      width: 102%;
+      height: 80px;
+      position: absolute;
+      margin: 7px;
+    }
+    .header{
+      width: 102%;
+      margin: -8px;
+      display: none;
+      height: 80px;
+      z-index: -1;
+    }
+    .header table{
+      margin-left: 180px;
+    }
+    #logo{
+      height: 75px;
+      position: absolute;
+      top: 0px;
+      margin-left: 10px;
+    }
+    button{
+      height: 40px;
+      width: 43px;
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
+    }
+    .aboutPage {
+      background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
+      height: 106vh;
+      background-size: cover;
+      text-align: center;
+     }
+     .about-profile h1 {
+      padding-top: 170px;
+      text-align: center;
+      font-weight: 300;
+      font-size: 4rem;
+     }
+     .about-profile h2 {
+      font-size: 2rem;
+      margin: 2px;
+    }
+     .who h1 {
+      padding-top: 35px;
+       font-size: 2rem;
+    }
+     .who p {
+      font-size: 1rem;
+     margin-top: 10px;  
+      }
+    
+    .team-main-grid h1{
+    font-size: 1.2rem;
+    }
+    .team-main-grid h2 {
+      font-size: 1em;
+    }
+    .team-main-grid {
+      display: grid;
+      grid-template-columns: none;
+    }
+    h2 {
+    font-size: 2rem;
+    }
+    .team-main-grid h1{
+    font-size: 1.2rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+      }
+    .team-grid1 img, .team-grid2 img, .team-grid3 img, .team-grid4 img, .team-grid5 img, .team-grid6 img{
+      height: 55%;
+      position: sticky;
+    }
+    .overlay {
+      height: 55%;
+    }
+  }
+
+  @media screen and (max-width: 375px){
+    .navbar{
+      width: 102%;
+      height: 80px;
+      position: absolute;
+      margin: 7px;
+    }
+    .header{
+      width: 102%;
+      margin: -8px;
+      display: none;
+      height: 80px;
+      z-index: -1;
+    }
+    .header table{
+      margin-left: 150px;
+    }
+    #logo{
+      height: 75px;
+      position: absolute;
+      top: 0px;
+      margin-left: 10px;
+    }
+    button{
+      height: 40px;
+      width: 43px;
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
+    }
+    .aboutPage {
+      background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
+      height: 102vh;
+      background-size: cover;
+      text-align: justify;
+     }
+  .about-profile h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    
+  }
+  .about-profile h2 {
+    font-size: 2rem;
+    margin: 0px;
+  }
+  .who h1 {
+    padding-top: 35px;
+    font-size: 2.5rem;
+  }
+
+  .who p{
+    margin-top: 10px;
+    
+  }
+  .team-grid1 img, .team-grid2 img, .team-grid3 img, .team-grid4 img, .team-grid5 img, .team-grid6 img{
+    height: 60%;
+  }
+  .overlay {
+    height: 60%;
+  }
+}
+  
+  @media screen and (max-width: 320px){
+    .navbar{
+      width: 102%;
+      height: 80px;
+      position: absolute;
+      margin: 7px;
+    }
+    .header{
+      width: 102%;
+      margin: -8px;
+      display: none;
+      height: 80px;
+      z-index: -1;
+    }
+    .header table{
+      margin-left: 10 0px;
+    }
+    #logo{
+      height: 67px;
+      position: absolute;
+      top: 0px;
+      margin-left: -5px;
+    }
+    button{
+      height: 40px;
+      width: 43px;
+      background-color: transparent;
+      cursor: pointer;
+      border: none;
+    }
+    .aboutPage {
+      background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
+      height: 100vh;
+      padding: 0px;
+      background-size: cover;
+      text-align: justify;
+     }
+     .about-profile h1 {
+      font-size: 3rem;
+      text-align: center;   
+      
+    }
+    .about-profile h2 {
+      font-size: 1.5rem;
+      margin: 0px;
+    }
+    h2 {
+      font-size: 2rem;
+      }
+    .who h1 {
+      margin-top: 2.5px;
+      font-size: 2.5rem;
+    }
+    .who p {
+      font-size: 1rem;
+      text-align: justify;
+    }
+    .team-main-grid h1{
+      font-size: 1rem;
+      }
+    .team-grid1 img, .team-grid2 img, .team-grid3 img, .team-grid4 img, .team-grid5 img, .team-grid6 img{
+      height: 65%;
+    }
+    .overlay {
+      height: 65%;
+    }
+  }
+
+  
+
+
+
+
+
+
+
+

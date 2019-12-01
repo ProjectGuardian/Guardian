@@ -1,0 +1,22 @@
+{
+  "name": "guardian",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProjectGuardian/Guardian.git"
+  },
+  "author": "Team Guardian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ProjectGuardian/Guardian/issues"
+  },
+  "homepage": "https://github.com/ProjectGuardian/Guardian#readme",
+  "description": "",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
