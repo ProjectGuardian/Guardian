@@ -1,7 +1,6 @@
 {
   "name": "guardian",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "homepage": "https://github.io/ProjectGuardian/Guardian",
   "scripts": {
@@ -17,8 +16,8 @@
   "bugs": {
     "url": "https://github.com/ProjectGuardian/Guardian/issues"
   },
-  
   "dependencies": {
     "gh-pages": "^2.1.1"
-  }
+  },
+  "description": ""
 }
