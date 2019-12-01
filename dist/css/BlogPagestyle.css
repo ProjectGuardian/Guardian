@@ -75,21 +75,38 @@ button:hover{
 
 #more {display: none;}
 
+#blogPage .content1{
+  border-style: groove;
+  border-color: #777;
+  padding: 10vh;
+  text-align: center;
+  margin: 40px;
+  
+}
 #blogPage .content{
   border-style: groove;
   border-color: #777;
   padding: 10vh;
   text-align: center;
-  margin: 100px;
+  margin: 40px;
   
 }
 
+#blogPage .content1 img{
+  height: 50vh;
+  width: 100vh;
+}
 #blogPage .content img{
   height: 50vh;
   width: 100vh;
 }
 
-
+#blogPage .content1 h2 {
+  color: #333;
+  font-weight: 300;
+  font-size: 50px;
+  text-align: left;
+}
 #blogPage .content h2 {
   color: #333;
   font-weight: 300;
@@ -97,6 +114,14 @@ button:hover{
   text-align: left;
 }
 
+#blogPage .content1 h3 {
+  color: #777;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: italic;
+  text-align: left;
+}
 #blogPage .content h3 {
   color: #777;
   font-weight: 300;
@@ -106,9 +131,17 @@ button:hover{
   text-align: left;
 }
 
+#blogPage .content1 p {
+  line-height: 26px;
+  text-align: left;
+}
 #blogPage .content p {
   line-height: 26px;
   text-align: left;
+}
+
+#blogPage .content1 p:last-child {
+  margin-bottom: 0;
 }
 
 #blogPage .content p:last-child {
@@ -145,7 +178,7 @@ button:hover{
 
 .portfolio-header{
     font-size: 4vh;
-    width: 1200px;
+    width: 100%;
     height: 500px;
     position: absolute;
     left: 50%;
@@ -155,12 +188,14 @@ button:hover{
 
 .portfolio-header h1{
   font-size: 5.2rem;
+  text-align: center;
 }
 
 .portfolio-header h2{
   font-size: 2.2rem;
   font-style: italic;
   color: rgb(245, 245, 245);
+  text-align: center;
 }
 
 
@@ -210,7 +245,7 @@ button:hover{
   text-align: center;
   background-color: white;
   margin: 0px;
-  padding: 18px;
+  padding: 0px;
   width: 100%;
   }
 
@@ -249,16 +284,26 @@ button{
   color: white;
  }
 
- #blogPage .content h2 {
+ #blogPage .content1 h2 {
   color: #333;
   font-weight: 300;
   font-size: 34px;
   text-align: left;
   }
+  #blogPage .content h2 {
+    color: #333;
+    font-weight: 300;
+    font-size: 34px;
+    text-align: left;
+    }
 
+  #blogPage .content1 img{
+    height: 50vh;
+    width: 100vh;
+  }
   #blogPage .content img{
     height: 50vh;
-    width: 80vh;
+    width: 100vh;
   }
 
   .portfolio-header h1 {
@@ -276,6 +321,20 @@ button{
   color: rgb(245, 245, 245);
   text-align: center;
   }
+}
+
+@media screen and (orientation: portrait){
+.portfolio-hero{
+  background-size: cover;
+}
+#blogPage .content1 img{
+  height: 26vh;
+  width: 50vh;
+}
+#blogPage .content img{
+  height: 26vh;
+  width: 50vh;
+}
 }
 
 @media screen and (max-width: 768px){
@@ -310,15 +369,25 @@ button{
 
 #blogPage .content img{
   height: 50vh;
-  width: 50vh;
+  width: 100%;
+}
+#blogPage .content1 img{
+  height: 50vh;
+  width: 100%;
 }
   
-   #blogPage .content h2 {
+   #blogPage .content1 h2 {
     color: #333;
     font-weight: 300;
     font-size: 30px;
     text-align: left;
     }
+    #blogPage .content h2 {
+      color: #333;
+      font-weight: 300;
+      font-size: 30px;
+      text-align: left;
+      }
   
     .portfolio-header h1 {
       font-weight: 300;
@@ -336,8 +405,21 @@ button{
     text-align: center;
     }
 }
+@media screen and (orientation: portrait){
+  .portfolio-hero{
+    background-size: cover;
+  }
+  #blogPage .content img{
+    height: 26vh;
+    width: 50vh;
+  }
+  #blogPage .content1 img{
+    height: 26vh;
+    width: 50vh;
+  }
+  }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 426px){
   .navbar{
     width: 100%;
   } 
@@ -349,6 +431,26 @@ button{
   }
   #logo{
   margin-left: -210px;
+  }
+  #blogPage .content1{
+    border-style: groove;
+    border-color: #777;
+    padding: 3vh;
+    text-align: center;
+    margin: 100px;
+    width: 50vh;
+    height: 256vh;
+    margin-left: 20px;
+  }
+  #blogPage .content{
+    border-style: groove;
+    border-color: #777;
+    padding: 3vh;
+    text-align: center;
+    margin: 100px;
+    width: 50vh;
+    height: 90vh;
+    margin-left: 27px;
   }
   .portfolio-hero {
     background: url(../img/background3.jpg) no-repeat center center fixed;
@@ -367,30 +469,128 @@ button{
     color: white;
 }
   
-   #blogPage .content h2 {
+   #blogPage .content1 h2 {
     color: #333;
     font-weight: 300;
     font-size: 30px;
     text-align: left;
     }
+    #blogPage .content h2 {
+      color: #333;
+      font-weight: 300;
+      font-size: 30px;
+      text-align: left;
+      }
+    
+    
+    #blogPage .content h3 {
+      color: #777;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 26px;
+      font-style: italic;
+      text-align: left;
+    }
+    #blogPage .content1 h3 {
+      color: #777;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 26px;
+      font-style: italic;
+      text-align: left;
+    }
+    
+    #blogPage .content1 p {
+      line-height: 26px;
+      text-align: left;
+    }
+    #blogPage .content p {
+      line-height: 26px;
+      text-align: left;
+    }
+    
+    #blogPage .content1 p:last-child {
+      margin-bottom: 0;
+    }
+    #blogPage .content p:last-child {
+      margin-bottom: 0;
+    }
   
     .portfolio-header h1 {
       font-weight: 300;
       margin: 15px;
-      font-size: 4.2rem;
+      font-size: 2.6rem;
       -webkit-text-stroke: -1px black;
       color: white;
       text-align: center;
+      line-height: 41px;
   }
   
   .portfolio-header h2{
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-style: italic;
     color: rgb(245, 245, 245);
     text-align: center;
     }
+    .footer{
+      
+      padding: 0px;
+    }
+    #blogPage .content img{
+      height: 30vh;
+      width: 49vh;
+    }
+    #blogPage .content1 img{
+      height: 30vh;
+      width: 49vh;
+    }
 }
-
+@media screen and (max-width: 414px){
+  .portfolio-hero{
+    background-size: cover;
+  }
+  #blogPage .content1{
+    width: 39vh;
+    margin-left: 30px;
+    
+  }
+  #blogPage .content{
+    width: 39vh;
+    margin-left: 30px;
+    
+  }
+  #blogPage .content img{
+    width: 36vh;
+    height: 23vh;
+  }
+  #blogPage .content1 img{
+    width: 36vh;
+    height: 23vh;
+  }
+}
+@media screen and (max-width: 411px){
+  .portfolio-hero{
+    background-size: cover;
+  }
+  #blogPage .content1{
+    width: 36vh;
+    margin-left: 30px;
+    
+  }
+  #blogPage .content{
+    width: 36vh;
+    margin-left: 30px;
+    
+  }
+  #blogPage .content1 img{
+    width: 36vh;
+    height: 23vh;
+  }
+  #blogPage .content img{
+    width: 36vh;
+    height: 23vh;
+  }
+}
 @media screen and (max-width: 375px){
   .navbar{
     width: 100%;
@@ -403,6 +603,34 @@ button{
   }
   #logo{
   margin-left: -190px;
+  }
+  #blogPage .content{
+    border-style: groove;
+    border-color: #777;
+    padding: 5vh;
+    text-align: center;
+    margin: 100px;
+    width: 38vh;
+    height: 100vh;
+    margin-left: 17px;
+  }
+  #blogPage .content1{
+    border-style: groove;
+    border-color: #777;
+    padding: 5vh;
+    text-align: center;
+    margin: 100px;
+    width: 38vh;
+    height: 281vh;
+    margin-left: 17px;
+  }
+  #blogPage .content1 img{
+    height: 16vh;
+    width: 29vh;
+  }
+  #blogPage .content img{
+    height: 16vh;
+    width: 29vh;
   }
 }
 
@@ -421,5 +649,48 @@ button{
   }
   #logo{
   margin-left: -160px;
+  }
+  .portfolio-hero {
+    background: url(../img/background3.jpg) no-repeat center center fixed;
+    height: 100vh;
+    padding: 0px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+   }
+  .portfolio-profile h1 {
+    font-weight: 300;
+    margin: 15px;
+    font-size: 3.2rem;
+    -webkit-text-stroke: -1px black;
+    color: white;
+  }
+  #blogPage .content{
+    border-style: groove;
+    border-color: #777;
+    padding: 5vh;
+    text-align: center;
+    margin: 100px;
+    width: 31vh;
+    height: 130vh;
+    margin-left: 23px;
+  }
+  #blogPage .content1{
+    border-style: groove;
+    border-color: #777;
+    padding: 5vh;
+    text-align: center;
+    margin: 100px;
+    width: 31vh;
+    height: 324vh;
+    margin-left: 30px;
+  }
+  #blogPage .content img{
+    height: 14vh;
+    width: 31vh;
+  }
+  #blogPage .content1 img{
+    height: 14vh;
+    width: 31vh;
   }
 }
