@@ -353,7 +353,6 @@ footer h3 {
   }
   .logoFooter {
     float: center; 
-    padding-right: 25px;
     height: 100%;
     width: 200px; 
   }
@@ -549,7 +548,7 @@ footer h3 {
     }
     .aboutPage {
       background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
-      height: 102vh;
+      height: 105vh;
       background-size: cover;
       text-align: justify;
      }
@@ -611,7 +610,7 @@ footer h3 {
     }
     .aboutPage {
       background: url(../img/imgA/background2.jpg) no-repeat center center fixed;
-      height: 100vh;
+      height: 105vh;
       padding: 0px;
       background-size: cover;
       text-align: justify;
@@ -640,7 +639,7 @@ footer h3 {
       font-size: 1rem;
       }
     .team-grid1 img, .team-grid2 img, .team-grid3 img, .team-grid4 img, .team-grid5 img, .team-grid6 img{
-      height: 65%;
+      height: 58%;
     }
     .overlay {
       height: 65%;
