@@ -1,0 +1,425 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+  line-height: 1.6em;
+  overflow-x: hidden;
+}
+
+.navbar{
+  width: 102%;
+  height: 80px;
+  position: absolute;
+  margin: -8px;
+  z-index: 1;
+}
+.header{
+  width: 102%;
+  margin: -8px;
+  display: none;
+  height: 80px;
+  z-index: -1;
+}
+.icon{
+  height: 35px;
+  width: 35px;
+}
+.header table{
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 30px;
+  color: black;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+
+}
+#logo{
+  height: 75px;
+  position: absolute;
+  top: 0px;
+  margin-left: -780px;
+  z-index: 1;
+}
+#logo:hover{
+  height: 90px;
+  transition-duration: .3s;
+}
+.header:hover{
+  background-color:rgba(255, 255, 255, 0.637);
+}
+.navbar:hover .header{
+  display: block;
+  transition-duration: .5s;
+}
+button{
+  height: 30px;
+  width: 120px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+.icon:hover{
+  width: 40px;
+  height: 38px;
+  filter: invert(100);
+  transition-duration: .3s;
+}
+button:hover{
+  background-color: black;
+  height: 40px;
+  transition-duration: .3s;
+}
+
+#more {display: none;}
+
+#blogPage .content{
+  border-style: groove;
+  border-color: #777;
+  padding: 10vh;
+  text-align: center;
+  margin: 100px;
+  
+}
+
+#blogPage .content img{
+  height: 50vh;
+  width: 100vh;
+}
+
+
+#blogPage .content h2 {
+  color: #333;
+  font-weight: 300;
+  font-size: 50px;
+  text-align: left;
+}
+
+#blogPage .content h3 {
+  color: #777;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: italic;
+  text-align: left;
+}
+
+#blogPage .content p {
+  line-height: 26px;
+  text-align: left;
+}
+
+#blogPage .content p:last-child {
+  margin-bottom: 0;
+}
+
+.portfolio-hero {
+ background: url(../img/background3.jpg) no-repeat center center fixed;
+ height: 100vh;
+ padding: 10px;
+ background-size: 100%;
+ text-align: center;
+ color: white;
+ margin: -8px;
+}
+
+.portfolio-profile {
+    width: 800px;
+    height: 550px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+}
+
+.portfolio-profile h1 {
+    font-weight: 300;
+    margin: 15px;
+    font-size: 9.2rem;
+    -webkit-text-stroke: -1px black;
+    color: white;
+}
+
+
+.portfolio-header{
+    font-size: 4vh;
+    width: 1200px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: left;
+}
+
+.portfolio-header h1{
+  font-size: 5.2rem;
+}
+
+.portfolio-header h2{
+  font-size: 2.2rem;
+  font-style: italic;
+  color: rgb(245, 245, 245);
+}
+
+
+.button {
+  border-radius: 4px;
+  background-color: #181818;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 11px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  float: left;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: #FFFFFF;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.footer{
+  color:black;
+  text-align: center;
+  background-color: white;
+  margin: 0px;
+  padding: 18px;
+  width: 100%;
+  }
+
+  footer h3 {
+    text-align: center;
+  }
+
+  .logoFooter {
+    float: center; 
+    padding: 0px;
+    height: 200%;
+    width: 250px; 
+    text-decoration: none;
+    border-radius: 30%;
+}
+
+@media screen and (max-width: 1024px){
+  .navbar{
+    width: 100%;
+}
+.header table{
+    margin-left: 665px;
+}
+button{
+    width: 75px;
+}
+#logo{
+  margin-left: -520px;
+}
+.portfolio-hero {
+  background: url(../img/background3.jpg) no-repeat center center fixed;
+  height: 100vh;
+  padding: 0px;
+  background-size: 150%;
+  text-align: center;
+  color: white;
+ }
+
+ #blogPage .content h2 {
+  color: #333;
+  font-weight: 300;
+  font-size: 34px;
+  text-align: left;
+  }
+
+  #blogPage .content img{
+    height: 50vh;
+    width: 80vh;
+  }
+
+  .portfolio-header h1 {
+    font-weight: 300;
+    margin: 15px;
+    font-size: 4.2rem;
+    -webkit-text-stroke: -1px black;
+    color: white;
+    text-align: center;
+}
+
+.portfolio-header h2{
+  font-size: 2.2rem;
+  font-style: italic;
+  color: rgb(245, 245, 245);
+  text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .navbar{
+    width: 100%;
+  } 
+  .header table{
+    margin-left: 500px;
+  }
+  button{
+    width: 50px;
+  }
+  #logo{
+  margin-left: -390px;
+  }
+  .portfolio-hero {
+    background: url(../img/background3.jpg) no-repeat center center fixed;
+    height: 100vh;
+    padding: 0px;
+    background-size: 200%;
+    text-align: center;
+    color: white;
+   }
+
+   .portfolio-profile h1 {
+    font-weight: 300;
+    margin: 15px;
+    font-size: 6.2rem;
+    -webkit-text-stroke: -1px black;
+    color: white;
+}
+
+#blogPage .content img{
+  height: 50vh;
+  width: 50vh;
+}
+  
+   #blogPage .content h2 {
+    color: #333;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: left;
+    }
+  
+    .portfolio-header h1 {
+      font-weight: 300;
+      margin: 15px;
+      font-size: 4.2rem;
+      -webkit-text-stroke: -1px black;
+      color: white;
+      text-align: center;
+  }
+  
+  .portfolio-header h2{
+    font-size: 2.2rem;
+    font-style: italic;
+    color: rgb(245, 245, 245);
+    text-align: center;
+    }
+}
+
+@media screen and (max-width: 425px){
+  .navbar{
+    width: 100%;
+  } 
+  .header table{
+    margin-left: 210px;
+  }
+  button{
+    width: 40px;
+  }
+  #logo{
+  margin-left: -210px;
+  }
+  .portfolio-hero {
+    background: url(../img/background3.jpg) no-repeat center center fixed;
+    height: 100vh;
+    padding: 0px;
+    background-size: 350%;
+    text-align: center;
+    color: white;
+   }
+
+   .portfolio-profile h1 {
+    font-weight: 300;
+    margin: 15px;
+    font-size: 4.2rem;
+    -webkit-text-stroke: -1px black;
+    color: white;
+}
+  
+   #blogPage .content h2 {
+    color: #333;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: left;
+    }
+  
+    .portfolio-header h1 {
+      font-weight: 300;
+      margin: 15px;
+      font-size: 4.2rem;
+      -webkit-text-stroke: -1px black;
+      color: white;
+      text-align: center;
+  }
+  
+  .portfolio-header h2{
+    font-size: 2.2rem;
+    font-style: italic;
+    color: rgb(245, 245, 245);
+    text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px){
+  .navbar{
+    width: 100%;
+  } 
+  .header table{
+    margin-left: 150px;
+  }
+  button{
+    width: 40px;
+  }
+  #logo{
+  margin-left: -190px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .navbar{
+    width: 100%;
+  } 
+  .header table{
+    margin-left: 110px;
+  }
+  #logo{
+    height: 70px;
+  }
+  button{
+    width: 40px;
+  }
+  #logo{
+  margin-left: -160px;
+  }
+}

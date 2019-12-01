@@ -1,0 +1,741 @@
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    background-color: white;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 102%;
+    height: 80px;
+    position: absolute;
+    margin: -8px;
+}
+.header{
+    width: 102%;
+    margin: -8px;
+    display: none;
+    height: 80px;
+    z-index: -1;
+}
+.icon{
+    height: 35px;
+    width: 35px;
+}
+.header table{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 30px;
+    color: black;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+
+}
+#logo{
+    height: 75px;
+    position: absolute;
+    top: 0px;
+    margin-left: 20px;
+}
+#logo:hover{
+    height: 90px;
+    transition-duration: .3s;
+}
+.header:hover{
+    background-color:rgba(255, 255, 255, 0.637);
+}
+.navbar:hover .header{
+    display: block;
+    transition-duration: .5s;
+}
+button{
+    height: 30px;
+    width: 120px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+.icon:hover{
+    width: 40px;
+    height: 38px;
+    filter: invert(100);
+    transition-duration: .3s;
+}
+button:hover{
+    background-color: black;
+    height: 40px;
+    transition-duration: .3s;
+}
+.contacts-content-header{
+    background: url(../img/imgC/contact-header.jpg) no-repeat fixed;
+    background-size: cover;
+    text-align: center;
+    height: 52rem;
+    width: 100%;
+}
+.contacts-content-header h1{
+    margin: 0 0 0 0;
+    padding-top: 14rem;
+    color: white;
+    font-size: 6rem;
+    overflow-x: hidden;
+}
+.aboutpage{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.contact-desc h2, .contact-desc h3{
+    position: relative;
+    left: 100px;
+}
+.contact-desc h2{
+    color: #777777;
+    font-size: 2rem;
+}
+.contact-desc h3{
+    font-size: 1.2rem;
+}
+.Contact{
+    position: absolute;
+    top: 1000px;
+    left: 230px;
+    font-size: 1.2rem;
+}
+.call_us, .address {
+    margin-bottom: 50px;
+}
+.call_us h4, .address h4, .email h4{
+    letter-spacing: 0.2rem;
+}
+.address a{
+    text-decoration: none;
+}
+
+.call_us img{
+    position: absolute;
+    top: 5px;
+    left: -70px;
+}
+
+.address img{
+    position: absolute;
+    top: 115px;
+    left: -70px;
+}
+
+.email a{
+    text-decoration: none;
+}
+.email img{
+    position: absolute;
+    top: 224px;
+    left: -70px;
+}
+
+.Contact h4{
+    color: #777777;
+    margin: -2.5px;
+}
+
+.Contact h5{
+    color: #444444;
+}
+.form{
+    position: absolute;
+    top: 975px;
+    right: 110px;
+ }
+ 
+ .form-desc h2{
+     position: relative;
+     font-size: 1rem;
+     text-align: center;
+     margin-bottom: -5px;
+ }
+ .userInfo{
+    margin: 5px 8px 27px 0px;
+    width: 215px;
+    height: 40px;
+}
+#userMessage{
+    width: 653px;
+    height: 275px;
+}
+
+#submitButton{
+    margin-left: 560px;
+    height: 40px;
+    width: 90px;
+    background-color: black;
+    color: white;
+    border-width: 0px;
+}
+#submitButton:hover{
+    background-color: black;
+    opacity: 50%;
+}
+input[type=text], select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    font-size: 16px;
+    resize: none;
+}
+button[type=submit] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 3px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button[type=submit]:hover{
+    width: 100%;
+    background-color: black;
+    color: white;
+    margin: 3px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.map-location{
+    position: absolute;
+    top: 1405px;
+    left: 160px;
+}
+iframe {
+    width: 80vw;
+    height: 450px;
+}
+.footer {
+    overflow-x: hidden;
+    position: absolute;
+    top: 117rem;
+    width: 99.13%;
+    margin-left: -1rem;
+    text-align: center;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    padding: 10px;
+    letter-spacing: 0.2rem;
+    font-weight: bold;
+}
+.footer #icon{
+    position: absolute;
+    top: 90px;
+    right: 30px;
+}
+.footer #icon:hover{
+    opacity: 50%;
+}
+@media screen and (max-width: 1300px){
+    .form{
+        position: absolute;
+        top: 975px;
+        right: 70px;
+    }
+}
+@media screen and (max-width: 1260px){
+    .navbar{
+        width: 100%;
+    }
+    .header table{
+        margin-left: 750px;
+    }
+    .form{
+        position: absolute;
+        top: 975px;
+        right: 40px;
+    }
+}
+@media screen and (max-width: 1225px){
+    .navbar{
+        width: 100%;
+    }
+    .header table{
+        margin-left: 725px;
+    }
+    .form{
+        position: absolute;
+        top: 975px;
+        right: 90px;
+    }
+    .userInfo{
+        margin: 5px 8px 27px 0px;
+        width: 147px;
+        height: 40px;
+    }
+    #userMessage{
+        width: 450px;
+        height: 275px;
+    }
+    #submitButton{
+        margin-left: 350px;
+        height: 40px;
+        width: 90px;
+        background-color: black;
+        color: white;
+        border-width: 0px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .navbar{
+        width: 100%;
+    }
+    .header table{
+        margin-left: 760px;
+    }
+    button{
+        width: 75px;
+    }
+    
+    .form{
+        position: absolute;
+        top: 975px;
+        right: 60px;
+    }
+    .form-desc h2{
+        position: relative;
+        font-size: 0.9rem;
+        text-align: center;
+        margin-bottom: -5px;
+    }
+    .userInfo{
+        margin: 5px 8px 27px 0px;
+        width: 147px;
+        height: 40px;
+    }
+    #userMessage{
+        width: 450px;
+        height: 275px;
+    }
+    #submitButton{
+        margin-left: 340px;
+        height: 40px;
+        width: 90px;
+        background-color: black;
+        color: white;
+        border-width: 0px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .navbar{
+        width: 100%;
+    }
+    .header table{
+        margin-left: 675px;
+    }
+    button{
+        width: 75px;
+    }
+    .Contact{
+        position: absolute;
+        top: 1000px;
+        left: 150px;
+    }
+    .form{
+        position: absolute;
+        top: 985px;
+        right: 75px;
+     }
+    .form-desc h2{
+        font-size: 0.9rem;
+    } 
+    .userInfo{
+         margin: 5px 8px 20px 0px;
+         width: 137px;
+         height: 30px;
+     }
+     
+     #userMessage{
+         width: 420px;
+         height: 275px;
+     }
+     #submitButton{
+        margin-left: 345px;
+        height: 20px;
+        width: 75px;
+        background-color: black;
+        color: white;
+        border-width: 0px;
+    }
+    .map-location {
+        position: absolute;
+        top: 1375px;
+        left: 100px;
+    }
+    iframe {
+        width: 80vw;
+        height: 450px;
+    }
+    .footer{
+        position: absolute;
+        top: 1825px;
+    }
+}
+@media screen and (max-width: 768px){
+    .navbar{
+        width: 100%;
+    }
+    .header table{
+        margin-left: 560px;
+    }
+    button{
+        width: 40px;
+    }
+    #h2_contact{
+        margin-bottom: 40px;
+        padding-left: 10px;
+    }
+    .Contact{
+        position: absolute;
+        top: 1000px;
+        left: 300px;
+    }
+    .contact-desc h2, .contact-desc h3{
+        position: relative;
+        left: 80px;
+    }
+    .call_us, .call_us img{
+        margin-left: -100px;
+    }
+    .address, .address img{
+        margin-left: -100px;
+    }
+    .email, .email img{
+        margin-left: -100px;
+    }
+    .form{
+        position: absolute;
+        top: 1475px;
+        right: 145px;
+     }
+     .form-desc h2{
+         position: absolute;
+         top: -150px;
+     }
+     
+     .userInfo{
+         position: relative;
+         right: 6px;
+         width: 495px;
+         height: 30px;
+     }
+     
+     #userMessage{
+         width: 495px;
+         height: 200px;
+     }
+     #submitButton{
+        position: relative;
+        left: 70px;
+        height: 20px;
+        width: 75px;
+        background-color: black;
+        color: white;
+        border-width: 0px;
+    }
+    .username_label{
+        position: absolute;
+        top: -125px;
+        right: -8px;
+    }
+    .email_label{
+        position: absolute;
+        top: -85px;
+        right: -8px;
+    }
+    .phone_label{
+        position: absolute;
+        top: -45px;
+        right: -8px;
+    }
+    .map-location {
+        position: absolute;
+        top: 1725px;
+        left: 125px;
+    }
+    iframe {
+        width: 64vw;
+        height: 300px;
+    }
+    .footer{
+        position: absolute;
+        top: 2050px;
+    }
+    
+}
+@media screen and (max-width: 425px){
+    .navbar{
+        width: 102%;
+    }
+    .header table{
+        margin-left: 220px;
+    }
+    button{
+        width: 40px;
+    }
+    #h2_contact{
+        margin-bottom: 40px;
+        padding-left: 34px;
+    }
+    .Contact{
+        position: absolute;
+        top: 1000px;
+        left: 120px;
+        font-size: 1.1rem;
+    }
+    .contact-desc h2, .contact-desc h3{
+        position: relative;
+        left: 30px;
+    }
+    .contact-desc h3{
+        font-size: 0.8rem;
+    }
+    .call_us, .address, .email{
+        padding-top: 5px;
+    }
+    .call_us, .call_us img{
+        margin-left: 0px;
+    }
+    .address, .address img{
+        margin-left: 0px;
+    }
+    .email, .email img{
+        margin-left: 0px;
+    }
+    .form{
+        position: absolute;
+        top: 1475px;
+        right: 40px;
+     }
+     .form-desc h2{
+        position: absolute;
+        top: -170px;
+    }
+     .userInfo{
+         margin: 5px 8px 20px 0px;
+         width: 335px;
+         height: 30px;
+     }
+     
+     #userMessage{
+         width: 333px;
+         height: 275px;
+     }
+     #submitButton{
+        margin-left: 185px;
+        height: 20px;
+        width: 75px;
+        background-color: black;
+        color: white;
+        border-width: 0px;
+        margin-bottom: 10px;
+    }
+    .map-location {
+        position: absolute;
+        top: 1795px;
+        left: 51px;
+    }
+    iframe {
+        width: 78vw;
+        height: 300px;
+    }
+    .footer{
+        position: absolute;
+        top: 2100px;
+    }
+}
+@media screen and (max-width: 375px){
+    .header table{
+        margin-left: 175px;
+    }
+    button{
+        width: 40px;
+    }
+    .contacts-content-header h1{
+        font-size: 5rem;
+    }
+    .contact-desc h2, .contact-desc h3{
+        position: relative;
+        left: 10px;
+    }
+    .contact-desc h3{
+        font-size: 0.77rem;
+    }
+    .Contact{
+        position: absolute;
+        top: 950px;
+        left: 90px;
+        font-size: 1rem;
+    }
+    .address img{
+        position: absolute;
+        top: 107px;
+        left: -70px;
+    }
+    .email img{
+        position: absolute;
+        top: 213px;
+        left: -70px;
+    }
+    .form{
+        position: absolute;
+        top: 1425px;
+        right: 25px;
+     }
+     
+     .userInfo{
+         margin: 5px 8px 20px 0px;
+         width: 332px;
+         height: 30px;
+     }
+     
+     #userMessage{
+         width: 330px;
+         height: 275px;
+     }
+     #submitButton{
+        margin-left: 180px;
+        height: 20px;
+        width: 75px;
+        background-color: black;
+        color: white;
+        border-width: 0px;
+        margin-bottom: 10px;
+    }
+    .map-location {
+        position: absolute;
+        top: 1745px;
+        left: 21px;
+    }
+    iframe {
+        width: 87vw;
+        height: 300px;
+    }
+    .footer #icon{
+        position: absolute;
+        top: 80px;
+        right: 30px;
+    }
+    .footer {
+        overflow-x: hidden;
+        position: absolute;
+        top: 2000;
+        width: 99.13%;
+        margin-left: -1rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-size: 0.6rem;
+        padding: 10px;
+        letter-spacing: 0.2rem;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 320px){
+    #logo{
+        height: 70px;
+        margin-left: 10px;
+    }
+    .navbar{
+        width: 104%;
+    }
+    .header table{
+        margin-left: 120px;
+    }
+    button{
+        width: 40px;
+    }
+    .contact-desc h3{
+        font-size: 0.65rem;
+    }
+    .contacts-content-header h1{
+        font-size: 4rem;
+        padding-top: 14rem;
+    }
+    #h2_contact{
+        margin-bottom: 40px;
+        padding-left: 20px;
+    }
+    .Contact{
+        position: absolute;
+        top: 1000px;
+        left: 95px;
+        font-size: 1rem;
+    }
+    .form{
+        position: absolute;
+        top: 1475px;
+        right: 34px;
+     }
+     .userInfo{
+         margin: 5px 8px 20px 0px;
+         width: 252px;
+         height: 30px;
+     }
+     
+     #userMessage{
+         width: 250px;
+         height: 255px;
+     }
+     .address img{
+        position: absolute;
+        top: 110px;
+        left: -70px;
+    }
+    .email img{
+        position: absolute;
+        top: 230px;
+        left: -70px;
+    }
+     #submitButton{
+        margin-left: 100px;
+        height: 20px;
+        width: 75px;
+        background-color: black;
+        color: white;
+        border-width: 0px;
+        margin-bottom: 10px;
+    }
+    .map-location {
+        position: absolute;
+        top: 1775px;
+        left: 35px;
+    }
+    iframe {
+        width: 78vw;
+        height: 275px;
+    }
+    .footer {
+        overflow-x: hidden;
+        position: absolute;
+        top: 2050px;
+        width: 99.13%;
+        margin-left: -1rem;
+        text-align: center;
+        background-color: white;
+        color: black;
+        font-size: 0.4rem;
+        padding: 10px;
+        letter-spacing: 0.2rem;
+        font-weight: bold;
+    }
+}
